@@ -1,4 +1,5 @@
 import { TinaMarkdown } from "tinacms/dist/rich-text";
+import Head from "next/head"
 import { Layout } from "../components/Layout";
 import { tinaField, useTina } from "tinacms/dist/react";
 import { client } from "../tina/__generated__/client";
@@ -14,24 +15,25 @@ export default function Home(props) {
   const content = data.page.body;
   return (
     <Layout>
-      <div data-tina-field={tinaField(data.page, "body")}>
-        <TinaMarkdown content={content} />
-      </div>
+        <Head>
+            <title>{data.page.title}</title>
+        </Head>
+        <pre>{JSON.stringify(data, null, 2)}</pre>
+        {/* <TinaMarkdown content={content} /> */}
     </Layout>
   );
 }
 
 export const getStaticProps = async () => {
   const { data, query, variables } = await client.queries.page({
-    relativePath: "home.mdx",
+    relativePath: "home.json",
   });
 
   return {
     props: {
       data,
       query,
-      variables,
-      //myOtherProp: 'some-other-data',
+      variables
     },
   };
 };
