@@ -16,10 +16,17 @@ export default function Home(props) {
   return (
     <Layout>
         <Head>
-            <title>{data.page.title}</title>
+            <title>{ data.page.title }</title>
         </Head>
-        <pre>{JSON.stringify(data, null, 2)}</pre>
-        {/* <TinaMarkdown content={content} /> */}
+    
+        {(data?.page?.rows || []).map((row, i) => (
+            <div key="i">
+            <TinaMarkdown content={row.block} />
+            </div>
+        ))}
+        
+        <pre>{ JSON.stringify(data, null, 2) }</pre>
+    
     </Layout>
   );
 }
