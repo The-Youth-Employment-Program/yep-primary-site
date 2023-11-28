@@ -1,0 +1,12 @@
+{
+  "branch": "Salmon",
+  "contact": {
+    "address": {
+      "street_address": "601 Lena Street",
+      "city": "Salmon",
+      "state": "ID",
+      "zip_code": "83467"
+    },
+    "branch_phone": "(208) 756-8600"
+  }
+}

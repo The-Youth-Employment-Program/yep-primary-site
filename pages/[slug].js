@@ -1,5 +1,5 @@
 import { TinaMarkdown } from "tinacms/dist/rich-text";
-import Head from "next/head"
+import Head from "next/head";
 import { Layout } from "../components/Layout";
 import { tinaField, useTina } from "tinacms/dist/react";
 import { client } from "../tina/__generated__/client";

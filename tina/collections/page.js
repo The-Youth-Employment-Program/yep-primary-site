@@ -19,6 +19,7 @@ export default {
       label: "Content Rows",
       type: "object",
       list: true,
+      /* change fields to templates to allow choice of what kind of page object ... Might need to further categorize by organizing blocks WITHIN sections. */
       fields: [
           {
               type: "rich-text",
