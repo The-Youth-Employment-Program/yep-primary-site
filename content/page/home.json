@@ -2,7 +2,25 @@
   "title": "Home Test Block",
   "rows": [
     {
-      "body": "Woah!\n"
+      "block": "# Three line(max) hero banner\n"
+    },
+    {
+      "block": "> \\[Authority of proof] inline partner logos\n"
+    },
+    {
+      "block": "# Call to Action(pathway cards for)\n\n### Have a Project?\n\nJoin YEP in providing engaging and meaningful projects to help our youth and community\n\n#### \\[provide] \\<-- link\n\n### Feeling Charitable?\n\nSupport our local communities by donating your time or resources.\n\n#### \\[give]\\<-- link\n\n### Get Paid Outside?\n\n\\[Get paid/work] in the outdoors with industry professionals and gain practical experience in multiple fields\n\n#### \\[join]\\<-- link\n"
+    },
+    {
+      "block": "# Testimonials\n\n> Volunteer lorem ipsum\\\n> \\- volunteer testimonial\n\n> partner lorem ipsum\\\n> -partner testimonial\n\n> Employee lorem ipsum\\\n> -employee testimonial\n"
+    },
+    {
+      "block": "# Articles\n\n1. Article 1\n2. Article 2\n3. Article 3\n4. Article 4?\n5. Article 5?\n6. Article 6?\n\nEmployee or volunteer written or newsletter article 'clip'/post/blog entry\n"
+    },
+    {
+      "block": "# Final Call to Action(pathway Cards for)\n\n### \"I want YEP to work on my project!\"\n\n#### \\[Become Partner]\n\n### \"I want to help our youth or have some free time for my community\"\n\n#### \\[Volunteer/Give]\n\n### \"I want to get paid in the Rocky Mountains\" or \"I want to build myself and make money\"\n\n#### \\[Work at YEP]\n"
+    },
+    {
+      "block": "### Sign up for Updates!\n\n\\<input type=\"mail\">example\\@mail.com\\</input>\n"
     }
   ]
 }
