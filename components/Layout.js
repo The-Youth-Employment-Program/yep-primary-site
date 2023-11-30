@@ -14,6 +14,7 @@ export const Layout = (props) => {
         <title>Youth Employment Program</title>
         <meta name="description" content="Non-Profit helping to build the next generation of community leaders" />
         <link rel="icon" href="/favicon.ico" />
+        <link rel="stylesheet" href="/style.css" />
       </Head>
       <YepHead />
       <main>{props.children}</main>
