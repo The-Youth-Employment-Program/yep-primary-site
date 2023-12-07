@@ -5,11 +5,7 @@ import { YepHead } from '../components/YepHead'
 
 export const Layout = (props) => {
   return (
-    <div
-      style={{
-        margin: '3rem',
-      }}
-    >
+    <div style={{ margin: '3rem' }}>
       <Head>
         <title>Youth Employment Program</title>
         <meta name="description" content="Non-Profit helping to build the next generation of community leaders" />
