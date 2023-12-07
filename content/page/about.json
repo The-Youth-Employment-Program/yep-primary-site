@@ -1,27 +1,27 @@
 {
-  "page_title": "About Page",
-  "page_section": [
+  "pageTitle": "About Page",
+  "section": [
     {
-      "navigation_entry": [
+      "navigationEntry": [
         {
-          "child_pages": "content/page/history.json"
+          "childPages": "content/page/history.json"
         },
         {
-          "child_pages": "content/page/partners.json"
+          "childPages": "content/page/partners.json"
         },
         {
-          "child_pages": "content/page/mission.json"
+          "childPages": "content/page/mission.json"
         },
         {
-          "child_pages": "content/page/our-team.json"
+          "childPages": "content/page/our-team.json"
         }
       ],
-      "_template": "secondary_nav"
+      "_template": "secondaryNav"
     },
     {
-      "section_title": "Woah",
-      "sectionText": "Test me\n",
-      "_template": "text_box"
+      "sectionTitle": "Woah",
+      "sectionText": "Test me typing random stuff.\n",
+      "_template": "textBox"
     }
   ]
 }

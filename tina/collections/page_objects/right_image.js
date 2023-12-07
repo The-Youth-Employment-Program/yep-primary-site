@@ -1,14 +1,14 @@
 export default {
-    name:"right_image",
+    name:"rightImage",
     label: "Right Image",
     type:"object",
     ui:{
-        defaultItem:{main_text:"Lorem Ipsum",image:"/uploads/tina.jpeg"}
+        defaultItem:{mainText:"Lorem Ipsum",image:"/uploads/tina.jpeg"}
     },
     fields:[
         {
             label:"Text",
-            name:"main_text",
+            name:"mainText",
             type:"string",
             ui:{ component: "textarea"}
         },

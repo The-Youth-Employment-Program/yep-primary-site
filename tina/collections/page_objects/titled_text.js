@@ -1,16 +1,16 @@
 export default {
-    name:"text_box",
+    name:"textBox",
     label: "Text Box",
     ui: {
         itemProps (item) {
-            return { label: item?.section_title || "Text Section" }
+            return { label: item?.sectionTitle || "Text Section" }
         }
     },
     fields:[
         {
             type: "string",
             label: "Section Title",
-            name: "section_title",
+            name: "sectionTitle",
             description: "Optional name for this page section"
         },
         {

@@ -1,15 +1,15 @@
 {
-  "page_title": "Partners",
-  "page_section": [
+  "pageTitle": "Partners",
+  "section": [
     {
-      "navigation_entry": [
+      "navigationEntry": [
         {},
         {},
         {},
         {},
         {}
       ],
-      "_template": "secondary_nav"
+      "_template": "secondaryNav"
     }
   ]
 }

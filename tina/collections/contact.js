@@ -3,7 +3,7 @@
  */
 export default {
     label: "Branch Information",
-    name:"branch_contact",
+    name:"branchContact",
     path:"content/contact",
     format: "json",
         fields: [
@@ -27,7 +27,7 @@ export default {
                             {
                                 type:"string",
                                 label:"Street Address",
-                                name:"street_address"
+                                name:"streetAddress"
                             },
                             {
                                 type:"string",
@@ -42,14 +42,14 @@ export default {
                             {
                                 type:"string",
                                 label:"Zip Code",
-                                name:"zip_code"
+                                name:"zipCode"
                             }
                         ]
                     },
                     {
                         type:"string",
                         label:"Office Phone",
-                        name:"branch_phone"
+                        name:"branchPhone"
                     },
 //Add Project manager  and other administrator information here. The information will be used not on the contact page but other related pages like Work at YEP, Work with YEP, etc...
                 ]

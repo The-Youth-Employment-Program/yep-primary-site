@@ -1,24 +1,42 @@
 export default {
-        name:"hero_banner",
+        name:"heroBanner",
         label: "Hero Landing",
         type:"object",
         fields:[
             {
                 label:"Hero Image",
                 description:"Background image for the hero banner",
-                name:"hero_image",
+                name:"heroImage",
                 type:"image"
             },
             {
                 label:"Banner Text",
-                name:"hero_text",
+                name:"heroText",
                 type:"string",
                 ui:{ component: "textarea"}
             },
             {
-                label:"Action Call",
-                name:"hero_button",
-                type:"string"
+                label:"Link",
+                name:"heroButton",
+                type:"object",
+                ui:{
+                    defaultItem:{label:"Home!",link:"/",},
+                    itemProps (item) {
+                        return { label: item?.label || "Button" }
+                    }
+                },
+                fields:[
+                    {
+                        label:"Action Call",
+                        name:"label",
+                        type:"string"
+                    },
+                    {
+                        label:"Link Page",
+                        name:"link",
+                        type:"string"
+                    }
+                ]
             }
         ]
     }

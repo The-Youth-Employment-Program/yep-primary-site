@@ -3,6 +3,9 @@ import Head from "next/head";
 import { Layout } from "../components/Layout";
 import { tinaField, useTina } from "tinacms/dist/react";
 import { client } from "../tina/__generated__/client";
+import { HeroBanner } from "../components/page_objects/hero-banner";
+import { TextBox } from "../components/page_objects/titled-text";
+import { ContactForm } from "../components/page_objects/contact-form";
 
 export default function Home(props) {
   // data passes though in production mode and data is updated to the sidebar data in edit-mode
@@ -12,21 +15,25 @@ export default function Home(props) {
     data: props.data,
   });
 
-  const content = data.page.body;
   return (
     <Layout>
         <Head>
-            <title>{ data.page.title }</title>
+           <title>{ data?.page?.pageTitle }</title>
         </Head>
-    
-        {(data?.page?.rows || []).map((row, i) => (
-            <div key="i">
-            <TinaMarkdown content={row.block} />
-            </div>
-        ))}
-        
+        {data.page.section?.map((part, i) =>{
+          switch (part?.__typename) {
+            case "PageSectionHeroBanner" : {
+              return <HeroBanner key={i} {...part} />
+            }
+            case "PageSectionContactForm" : {
+              return <ContactForm key={i} {...part} />
+            }
+            case "PageSectionTextBox" : {
+              return <TextBox key={i} {...part} />
+            }
+          }
+        })}
         <pre>{ JSON.stringify(data, null, 2) }</pre>
-    
     </Layout>
   );
 }

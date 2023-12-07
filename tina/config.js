@@ -27,7 +27,7 @@ export const config = defineConfig({
     outputFolder: "admin", // within the public folder
   },
   schema: {
-    collections: [page, post,contact],
+    collections: [page, post, contact],
   },
 });
 

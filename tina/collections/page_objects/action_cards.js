@@ -1,36 +1,54 @@
 export default {
-    name: "action_cards",
+    name: "actionCards",
     label: "Action Cards",
     type: "object",
     list: true,
     fields: [
         {
             label:"Action Card",
-            name:"action_card",
+            name:"actionCard",
             type:"object",
             list: true,
             ui: {
                 itemProps (item) {
-                    return { label: item?.card_title || "Action Card" }
-                }
+                    return { label: item?.cardTitle || "Action Card" }
+                },
             },
             fields:[
                 {
                     label: "Action Card Title",
-                    name: "card_title",
+                    name: "cardTitle",
                     type: "string"
                 },
                 {
                     label: "Action Text",
-                    name:"action_text",
+                    name:"actionText",
                     type: "rich-text"
                 },
                 {
-                    label: "Call to Action",
-                    name: "action_call",
-                    type: "string"
-                }
+                    label:"Call to Action",
+                    name:"actionCall",
+                    type:"object",
+                    ui:{
+                        defaultItem:{
+                            label:"Home!",
+                            link:"/"
+                        },
+                    },
+                    fields:[
+                        {
+                            label:"Action Call",
+                            name:"label",
+                            type:"string"
+                        },
+                        {
+                            label:"Link Page",
+                            name:"link",
+                            type:"string"
+                        },
+                    ]
+                },
             ]
-        }
+        },
     ]
 }

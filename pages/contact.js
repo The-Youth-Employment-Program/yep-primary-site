@@ -11,7 +11,6 @@ export default function Home(props) {
        data: props.data,
     });
 
-   const content = data.contact.body;
    return (
        <Layout>
         <Head><title>Contact Us</title></Head>
@@ -28,6 +27,14 @@ export default function Home(props) {
 // Server side render page. To revert to static page, change to getStaticProps
 export const getServerSideProps = async() => {
     const { data, query, variables } = await client.queries.page({
-        relativePath: "contact.json"
-    })
-}
+        relativePath: "../contact/Dillon.json" //Fix this to have variable display of branch page... This doesn't work anyway...
+    });
+
+  return {
+    props: {
+      data,
+      query,
+      variables
+    },
+  };
+};

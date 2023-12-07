@@ -1,12 +1,13 @@
 {
+  "pageTitle":"Pls Work Test",
   "branch": "Salmon",
   "contact": {
     "address": {
-      "street_address": "601 Lena Street",
+      "streetAddress": "601 Lena Street",
       "city": "Salmon",
       "state": "ID",
-      "zip_code": "83467"
+      "zipCode": "83467"
     },
-    "branch_phone": "(208) 756-8600"
+    "branchPhone": "(208) 756-8600"
   }
 }

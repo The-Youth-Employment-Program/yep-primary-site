@@ -1,14 +1,14 @@
 /**
  * @type {import('tinacms').Collection}
  */
-import hero_banner from "./page_objects/hero_banner";
-import titled_text from "./page_objects/titled_text";
-import secondary_nav from "./page_objects/secondary_nav";
-import action_cards from "./page_objects/action_cards";
+import heroBanner from "./page_objects/hero_banner";
+import titledText from "./page_objects/titled_text";
+import secondaryNav from "./page_objects/secondary_nav";
+import actionCards from "./page_objects/action_cards";
 import testimonials from "./page_objects/testimonials";
-import contact_form from "./page_objects/contact_form";
-import left_image from "./page_objects/left_image";
-import right_image from "./page_objects/right_image";
+import contactForm from "./page_objects/contact_form";
+import leftImage from "./page_objects/left_image";
+import rightImage from "./page_objects/right_image";
 import adornment from "./page_objects/adornment";
 
 export default {
@@ -19,25 +19,25 @@ export default {
     fields: [
       {
         type: "string",
-        name: "page_title",
+        name: "pageTitle",
         label: "Page Title",
         isTitle:true,
         required:true
       },
       {
         type: "object",
-        name: "page_section",
+        name: "section",
         label: "Page Section",
         list: true,
         templates: [
-          hero_banner,
-          titled_text,
-          secondary_nav,
-          action_cards,
+          heroBanner,
+          titledText,
+          secondaryNav,
+          actionCards,
           testimonials,
-          contact_form,
-          left_image,
-          right_image,
+          contactForm,
+          leftImage,
+          rightImage,
           adornment
         ]
       }

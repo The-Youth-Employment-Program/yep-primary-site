@@ -2,11 +2,11 @@ export default {
     name:"adornment",
     type:"object",
     ui:{
-        itemProps (item) {return{label:item?.adornment_name || "Floating Object"}}
+        itemProps (item) {return{label:item?.adornmentName || "Floating Object"}}
     },
     fields:[
     {
-        name:"adornment_name",
+        name:"adornmentName",
         label:"Object Name",
         type:"string",
     },
@@ -21,12 +21,12 @@ export default {
         type:"string"
     },
     {
-        name:"offset_x",
+        name:"offsetX",
         label:"X Offset",
         type:"string"
     },
     {
-        name:"offset_y",
+        name:"offsetY",
         label:"Y Offset",
         type:"string"
     }

@@ -1,21 +1,21 @@
 export default {
-        name:"secondary_nav",
+        name:"secondaryNav",
         label: "Secondary Navigation",
         fields:[
             {
                 label:"Navigation Entry",
-                name:"navigation_entry",
+                name:"navigationEntry",
                 type:"object",
                 list:true,
                 ui: { //fix this display issue
                     itemProps (item) {
-                        return { label: item?.child_pages?.page_title || "Page Navigation Item" }
+                        return { label: item?.childPages?.page?.pageTitle || "Page Navigation Item" }
                     }
                 },
                 fields:[
                     {
                         label:"Navigation Pages",
-                        name:"child_pages",
+                        name:"childPages",
                         description:"Select new pages to include in the navigation for this page",
                         type:"reference",
                         collections:["page"]

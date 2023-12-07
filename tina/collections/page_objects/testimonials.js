@@ -10,23 +10,23 @@ export default {
             list:true,
             type:"object",
             ui:{
-                itemProps (item) { return {label:item?.testimonial_attribution || "Quote"}}
+                itemProps (item) { return {label:item?.testimonialAttribution || "Quote"}}
             },
             fields:[
                 {
                     label:"Quote",
-                    name:"testimonial_quote",
+                    name:"testimonialQuote",
                     type:"string",
                     ui:{ component: "textarea"}
                 },
                 {
                     label:"Name",
-                    name:"testimonial_attribution",
+                    name:"testimonialAttribution",
                     type:"string"
                 },
                 {
                     label:"Role",
-                    name:"testimonial_role",
+                    name:"testimonialRole",
                     type:"string"
                 }
             ]

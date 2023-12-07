@@ -1,72 +1,70 @@
 {
-  "page_title": "Home",
-  "page_section": [
+  "pageTitle": "Home",
+  "section": [
     {
-      "section_title": "test",
-      "sectionText": "aoeuztan-\n",
-      "_template": "text_box"
+      "heroImage": "/uploads/tina.jpeg",
+      "heroText": "Here is some text.\nWe'll have checks for length of statements",
+      "heroButton": {
+        "label": "button",
+        "link": "/about"
+      },
+      "_template": "heroBanner"
     },
     {
-      "hero_image": "/uploads/tina.jpeg",
-      "hero_text": "Here is some text.\nWe'll have checks for length of statements",
-      "hero_button": "Go to some Page",
-      "_template": "hero_banner"
-    },
-    {
-      "action_card": [
+      "actionCard": [
         {
-          "card_title": "Want to work outside?",
-          "action_text": "Work in the outdoors with industry professionals and gain practical experience in numerous fields!\n",
-          "action_call": "Join"
+          "cardTitle": "Want to work outside?",
+          "actionText": "Work in the outdoors with industry professionals and gain practical experience in numerous fields!\n",
+          "actionCall": {"label":"Join","link":"/work"}
         },
         {
-          "card_title": "Feeling Charitable?",
-          "action_text": "Support our local communities by donating your time or resources\n",
-          "action_call": "Give"
+          "cardTitle": "Feeling Charitable?",
+          "actionText": "Support our local communities by donating your time or resources\n",
+          "actionCall": {"label":"Give","link":"/support"}
         },
         {
-          "card_title": "Have a Project?",
-          "action_text": "Join YEP in providing engaging and meaningful projects to help our youth and community\n",
-          "action_call": "Provide"
+          "cardTitle": "Have a Project?",
+          "actionText": "Join YEP in providing engaging and meaningful projects to help our youth and community\n",
+          "actionCall": {"label":"Provide","link":"/join"}
         }
       ],
-      "_template": "action_cards"
+      "_template": "actionCards"
     },
     {
       "testimonial": [
         {
-          "testimonial_quote": "We hired a seasonal crew through the Youth Employment Program. They were a great help to each and every project we sent them on throughout the course of the summer(not real quote)",
-          "testimonial_attribution": "Madi Crawford",
-          "testimonial_role": "Forest Service Botanist"
+          "testimonialQuote": "We hired a seasonal crew through the Youth Employment Program. They were a great help to each and every project we sent them on throughout the course of the summer(not real quote)",
+          "testimonialAttribution": "Madi Crawford",
+          "testimonialRole": "Forest Service Botanist"
         }
       ],
       "_template": "testimonials"
     },
     {
-      "action_card": [
+      "actionCard": [
         {
-          "card_title": "Work in the Rocky Mountains",
-          "action_text": "\"I want to build myself and make money\"\n\nor\n\n\"I want to get paid in the Rocky Mountains\n",
-          "action_call": "Work with YEP"
+          "cardTitle": "Work in the Rocky Mountains",
+          "actionText": "\"I want to build myself and make money\"\n\nor\n\n\"I want to get paid in the Rocky Mountains\n",
+          "actionCall": {"label":"Work with YEP","link":"/work"}
         },
         {
-          "card_title": "Volunteer or Give",
-          "action_text": "\"I want to help our youth, and I have some free resources!\"\n",
-          "action_call": "Volunteer/Give"
+          "cardTitle": "Volunteer or Give",
+          "actionText": "\"I want to help our youth, and I have some free resources!\"\n",
+          "actionCall": {"label":"Volunteer/Give","link":"/support"}
         },
         {
-          "card_title": "Become a Partner",
-          "action_text": "\"I want YEP to work on my projects!\"\n",
-          "action_call": "Become a Partner"
+          "cardTitle": "Become a Partner",
+          "actionText": "\"I want YEP to work on my projects!\"\n",
+          "actionCall": {"label":"Become a Partner","link":"/join"}
         }
       ],
-      "_template": "action_cards"
+      "_template": "actionCards"
     },
     {
-      "contact_statement": "Want to learn more about YEP and all that we do?",
-      "contact_action_call": "Reach out to us!",
-      "contact_button_text": "Get in touch",
-      "_template": "contact_form"
+      "contactStatement": "Want to learn more about YEP and all that we do?",
+      "contactActionCall": "Reach out to us!",
+      "contactButtonText": "Get in touch",
+      "_template": "contactForm"
     }
   ]
 }

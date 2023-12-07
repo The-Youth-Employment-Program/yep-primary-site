@@ -1,25 +1,25 @@
 {
-  "page_title": "Support",
-  "page_section": [
+  "pageTitle": "Support",
+  "section": [
     {
-      "navigation_entry": [
+      "navigationEntry": [
         {
-          "child_pages": "content/page/technical-career-training.json"
+          "childPages": "content/page/technical-career-training.json"
         },
         {
-          "child_pages": "content/page/sponsor.json"
+          "childPages": "content/page/sponsor.json"
         },
         {
-          "child_pages": "content/page/volunteer.json"
+          "childPages": "content/page/volunteer.json"
         },
         {
-          "child_pages": "content/page/donate.json"
+          "childPages": "content/page/donate.json"
         },
         {
-          "child_pages": "content/page/supporters.json"
+          "childPages": "content/page/supporters.json"
         }
       ],
-      "_template": "secondary_nav"
+      "_template": "secondaryNav"
     }
   ]
 }
