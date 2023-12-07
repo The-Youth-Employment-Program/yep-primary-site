@@ -1,26 +1,72 @@
 {
-  "title": "Home Test Block",
-  "rows": [
+  "page_title": "Home",
+  "page_section": [
     {
-      "block": "# Three line(max) hero banner\n"
+      "section_title": "test",
+      "sectionText": "aoeuztan-\n",
+      "_template": "text_box"
     },
     {
-      "block": "> \\[Authority of proof] inline partner logos\n"
+      "hero_image": "/uploads/tina.jpeg",
+      "hero_text": "Here is some text.\nWe'll have checks for length of statements",
+      "hero_button": "Go to some Page",
+      "_template": "hero_banner"
     },
     {
-      "block": "# Call to Action(pathway cards for)\n\n### Have a Project?\n\nJoin YEP in providing engaging and meaningful projects to help our youth and community\n\n#### \\[provide] \\<-- link\n\n### Feeling Charitable?\n\nSupport our local communities by donating your time or resources.\n\n#### \\[give]\\<-- link\n\n### Get Paid Outside?\n\n\\[Get paid/work] in the outdoors with industry professionals and gain practical experience in multiple fields\n\n#### \\[join]\\<-- link\n"
+      "action_card": [
+        {
+          "card_title": "Want to work outside?",
+          "action_text": "Work in the outdoors with industry professionals and gain practical experience in numerous fields!\n",
+          "action_call": "Join"
+        },
+        {
+          "card_title": "Feeling Charitable?",
+          "action_text": "Support our local communities by donating your time or resources\n",
+          "action_call": "Give"
+        },
+        {
+          "card_title": "Have a Project?",
+          "action_text": "Join YEP in providing engaging and meaningful projects to help our youth and community\n",
+          "action_call": "Provide"
+        }
+      ],
+      "_template": "action_cards"
     },
     {
-      "block": "# Testimonials\n\n> Volunteer lorem ipsum\\\n> \\- volunteer testimonial\n\n> partner lorem ipsum\\\n> -partner testimonial\n\n> Employee lorem ipsum\\\n> -employee testimonial\n"
+      "testimonial": [
+        {
+          "testimonial_quote": "We hired a seasonal crew through the Youth Employment Program. They were a great help to each and every project we sent them on throughout the course of the summer(not real quote)",
+          "testimonial_attribution": "Madi Crawford",
+          "testimonial_role": "Forest Service Botanist"
+        }
+      ],
+      "_template": "testimonials"
     },
     {
-      "block": "# Articles\n\n1. Article 1\n2. Article 2\n3. Article 3\n4. Article 4?\n5. Article 5?\n6. Article 6?\n\nEmployee or volunteer written or newsletter article 'clip'/post/blog entry\n"
+      "action_card": [
+        {
+          "card_title": "Work in the Rocky Mountains",
+          "action_text": "\"I want to build myself and make money\"\n\nor\n\n\"I want to get paid in the Rocky Mountains\n",
+          "action_call": "Work with YEP"
+        },
+        {
+          "card_title": "Volunteer or Give",
+          "action_text": "\"I want to help our youth, and I have some free resources!\"\n",
+          "action_call": "Volunteer/Give"
+        },
+        {
+          "card_title": "Become a Partner",
+          "action_text": "\"I want YEP to work on my projects!\"\n",
+          "action_call": "Become a Partner"
+        }
+      ],
+      "_template": "action_cards"
     },
     {
-      "block": "# Final Call to Action(pathway Cards for)\n\n### \"I want YEP to work on my project!\"\n\n#### \\[Become Partner]\n\n### \"I want to help our youth or have some free time for my community\"\n\n#### \\[Volunteer/Give]\n\n### \"I want to get paid in the Rocky Mountains\" or \"I want to build myself and make money\"\n\n#### \\[Work at YEP]\n"
-    },
-    {
-      "block": "### Sign up for Updates!\n\n\\<input type=\"mail\">example\\@mail.com\\</input>\n"
+      "contact_statement": "Want to learn more about YEP and all that we do?",
+      "contact_action_call": "Reach out to us!",
+      "contact_button_text": "Get in touch",
+      "_template": "contact_form"
     }
   ]
 }
