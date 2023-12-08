@@ -7,7 +7,7 @@ import React from "react";
 export function ActionCards(props: PageSectionActionCards) {
     return(
         <section>
-            <div className="actionCards">
+            <div className="">
                 <div data-tina-field={tinaField(props, "actionCard")}>{props.actionCard?.length}
                 {/* <TinaMarkdown content={props.heroText?} components={{
                         h1: (props) => (

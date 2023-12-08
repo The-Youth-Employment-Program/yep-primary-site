@@ -6,8 +6,8 @@ import React from "react";
 
 export function ContactForm(props: PageSectionContactForm) {
     return(
-        <section>
-            <div className="tst">
+        <div className="w-full content-center">
+            <div className="">
                 <div data-tina-field={tinaField(props, "contactActionCall")}>{props.contactActionCall || ""}</div>
             </div>
             <div className="">
@@ -17,6 +17,6 @@ export function ContactForm(props: PageSectionContactForm) {
                 <div data-tina-field={tinaField(props, "contactButtonText")}><a href="/">{props.contactButtonText || ""}</a> {/* send email data to Reach out list? */}
                 </div>
             </div>
-        </section>
+        </div>
     )
 }

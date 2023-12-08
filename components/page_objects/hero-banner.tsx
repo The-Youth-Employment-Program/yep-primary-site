@@ -6,8 +6,8 @@ import React from "react";
 
 export function HeroBanner(props: PageSectionHeroBanner) {
     return(
-        <section>
-            <div className="tst">
+        <section className="">
+            <div className="">
                 <div data-tina-field={tinaField(props, "heroText")}>{props.heroText}
                 {/* <TinaMarkdown content={props.heroText?} components={{
                         h1: (props) => (
@@ -21,7 +21,7 @@ export function HeroBanner(props: PageSectionHeroBanner) {
                 </div>
             </div>
             <div className="">
-                <div data-tina-field={tinaField(props,"heroImage")}><img src={props.heroImage || ""} />
+                <div data-tina-field={tinaField(props,"heroImage")}><img className="" src={props.heroImage || ""} />
                 {/* <TinaMarkdown content={props.heroImage?} components={{
                         img: (props) => (
                             <img className="" { ... props } />
