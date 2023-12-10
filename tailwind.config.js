@@ -11,6 +11,16 @@ module.exports = {
     fontFamily: {
       sans: ['Graphik', 'sans-serif'],
       serif: ['Merriweather', 'serif'],
+    },
+    extend: {
+      colors: {
+        'salmon-tan': '#e2b16e',
+        'salmon-green': '#436823',
+        'salmon-red': '#6b2d39',
+        'dillon-orange': '#f68b20',
+        'dillon-blue': '#09b8a7',
+        'dillon-red': '#5a190f',
+      }
     }
   },
   plugins: [],
