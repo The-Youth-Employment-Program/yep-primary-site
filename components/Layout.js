@@ -12,11 +12,11 @@ export const Layout = (props) => {
       <link rel="icon" href="/favicon.ico" />
       <link rel="stylesheet" href="/styles/global.css" />
     </Head>
-    <body className="bg-slate-100">
+    <div className="bg-slate-100">
       <YepHead />
       <main>{props.children}</main>
       <YepFoot />
-    </body>
+    </div>
     </>
   )
 }
