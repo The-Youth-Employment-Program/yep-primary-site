@@ -13,6 +13,14 @@ export default {
                 itemProps (item) {
                     return { label: item?.cardTitle || "Action Card" }
                 },
+                defaultItem: {
+                    "cardTitle": "Want to work outside?",
+                    "actionText": "Work in the outdoors with industry professionals and gain practical experience in numerous fields!\n",
+                    "actionCall": {
+                        "label": "Join",
+                        "link": "/work"
+                    }
+                }
             },
             fields:[
                 {
@@ -52,3 +60,32 @@ export default {
         },
     ]
 }
+
+
+// "actionCard": [
+//     {
+//       "cardTitle": "Want to work outside?",
+//       "actionText": "Work in the outdoors with industry professionals and gain practical experience in numerous fields!\n",
+//       "actionCall": {
+//         "label": "Join",
+//         "link": "/work"
+//       }
+//     },
+//     {
+//       "cardTitle": "Feeling Charitable?",
+//       "actionText": "Support our local communities by donating your time or resources\n",
+//       "actionCall": {
+//         "label": "Give",
+//         "link": "/support"
+//       }
+//     },
+//     {
+//       "cardTitle": "Have a Project?",
+//       "actionText": "Join YEP in providing engaging and meaningful projects to help our youth and community\n",
+//       "actionCall": {
+//         "label": "Provide",
+//         "link": "/join"
+//       }
+//     }
+//   ],
+//   "_template": "actionCards"

@@ -11,8 +11,8 @@
       "_template": "heroBanner"
     },
     {
-      "sectionTitle": "Test Box",
-      "sectionText": "help me with this silly TinaMarkdown tag!\n\n## Test!!\n",
+      "sectionTitle": "Is it fun to work with us? YEP!",
+      "sectionText": "This is an example of some text that doesn't need an image beside it if there are too many image full spaces. It allows the visitor to breathe instead of being cluttered by images **\"left\"** and **\"right\"**\n\n## Here's a secondary header\n\nYou can even break this section down into more complex messages because of the way it stores data in a \"rich-text\" format!\n",
       "_template": "textBox"
     },
     {
@@ -84,7 +84,7 @@
       "_template": "actionCards"
     },
     {
-      "contactStatement": "Learn about YEP and our projects!",
+      "contactStatement": "Sign up for our newsletter and learn about YEP and our projects!",
       "contactActionCall": "Stick with us!",
       "contactButtonText": "Stay up to date!",
       "_template": "contactForm"

@@ -6,11 +6,12 @@ import React from "react";
 export function ActionCards(props: PageSectionActionCards) {
     {/* for card in actionCards { ActionCard(card) } */}
     if(props.actionCard != null) {
-        props.actionCard?.map((card,i) => {
+        (props.actionCard || []).map((card,i) => {
             return ActionCard(card)
         });
     }
     return(
+        <>
         <section>
             <div className="">
                 <div data-tina-field={tinaField(props, "actionCard")}>{props.actionCard?}
@@ -26,6 +27,8 @@ export function ActionCards(props: PageSectionActionCards) {
                 </div>
             </div>
         </section>
+        <pre>{ JSON.stringify(props, null, 2) }</pre>
+        </>
     )
 }
 
