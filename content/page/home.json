@@ -2,7 +2,7 @@
   "pageTitle": "Home",
   "section": [
     {
-      "heroImage": "/uploads/tina.jpeg",
+      "heroImage": "/uploads/PXL_20230621_144828605.jpg",
       "heroText": "Here is some text.\nWe'll have checks for length of statements",
       "heroButton": {
         "label": "button",
@@ -11,21 +11,35 @@
       "_template": "heroBanner"
     },
     {
+      "sectionTitle": "Test Box",
+      "sectionText": "help me with this silly TinaMarkdown tag!\n\n## Test!!\n",
+      "_template": "textBox"
+    },
+    {
       "actionCard": [
         {
           "cardTitle": "Want to work outside?",
           "actionText": "Work in the outdoors with industry professionals and gain practical experience in numerous fields!\n",
-          "actionCall": {"label":"Join","link":"/work"}
+          "actionCall": {
+            "label": "Join",
+            "link": "/work"
+          }
         },
         {
           "cardTitle": "Feeling Charitable?",
           "actionText": "Support our local communities by donating your time or resources\n",
-          "actionCall": {"label":"Give","link":"/support"}
+          "actionCall": {
+            "label": "Give",
+            "link": "/support"
+          }
         },
         {
           "cardTitle": "Have a Project?",
           "actionText": "Join YEP in providing engaging and meaningful projects to help our youth and community\n",
-          "actionCall": {"label":"Provide","link":"/join"}
+          "actionCall": {
+            "label": "Provide",
+            "link": "/join"
+          }
         }
       ],
       "_template": "actionCards"
@@ -45,25 +59,34 @@
         {
           "cardTitle": "Work in the Rocky Mountains",
           "actionText": "\"I want to build myself and make money\"\n\nor\n\n\"I want to get paid in the Rocky Mountains\n",
-          "actionCall": {"label":"Work with YEP","link":"/work"}
+          "actionCall": {
+            "label": "Work with YEP",
+            "link": "/work"
+          }
         },
         {
           "cardTitle": "Volunteer or Give",
           "actionText": "\"I want to help our youth, and I have some free resources!\"\n",
-          "actionCall": {"label":"Volunteer/Give","link":"/support"}
+          "actionCall": {
+            "label": "Volunteer/Give",
+            "link": "/support"
+          }
         },
         {
           "cardTitle": "Become a Partner",
           "actionText": "\"I want YEP to work on my projects!\"\n",
-          "actionCall": {"label":"Become a Partner","link":"/join"}
+          "actionCall": {
+            "label": "Become a Partner",
+            "link": "/join"
+          }
         }
       ],
       "_template": "actionCards"
     },
     {
-      "contactStatement": "Want to learn more about YEP and all that we do?",
-      "contactActionCall": "Reach out to us!",
-      "contactButtonText": "Get in touch",
+      "contactStatement": "Learn about YEP and our projects!",
+      "contactActionCall": "Stick with us!",
+      "contactButtonText": "Stay up to date!",
       "_template": "contactForm"
     }
   ]
