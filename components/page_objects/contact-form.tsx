@@ -23,7 +23,7 @@ export function ContactForm(props: PageSectionContactForm) {
                 <p data-tina-field={tinaField(props,"contactStatement")}>{props.contactStatement || ""}</p>
             </div>
         </div>
-        <pre>{ JSON.stringify(props, null, 2) }</pre>
+        {/* <pre>{ JSON.stringify(props, null, 2) }</pre> */}
         </>
     )
 }

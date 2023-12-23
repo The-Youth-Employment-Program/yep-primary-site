@@ -5,23 +5,22 @@ import { tinaField } from "tinacms/dist/react";
 import React from "react";
 
 export function HeroBanner(props: PageSectionHeroBanner) {
-  const sectionStyle = "relative bg-origin-content bg-cover bg-top-left bg-no-repeat"
+  const sectionStyle = "relative bg-origin-content bg-cover bg-[center_-4rem] bg-no-repeat" //top-left works well... trying to find better option
   return(
       <>
         <section className={sectionStyle} style={{backgroundImage: `url('${props.heroImage}')`}} data-tina-field={tinaField(props, "heroImage")}>  
-          <div className="pt-20 pb-20 sm:pt-40 sm:pb-40 md:pt-96 md:pb-48">
-            <div className="max-w-3xl inline-block p-8 pb-24 ml-6 bg-salmon-dark-g2 bg-opacity-40 text-white font-semibold text-3xl shadow-lg" data-tina-field={tinaField(props, "heroText")}>
+          <div className="pt-20 pb-20 sm:pt-40 sm:pb-40 md:pt-96 md:pb-40">
+            <div className="max-w-3xl inline-block rounded-2xl p-8 ml-6 bg-salmon-dark-g2 bg-opacity-80 text-white font-semibold text-3xl shadow-lg" data-tina-field={tinaField(props, "heroText")}>
               {props.heroText}
-            </div>
-
-            <div className="max-w-2xl -mt-16 ml-14" data-tina-field={tinaField(props, "heroButton")}>
-              <a className="px-5 py-3 rounded-lg shadow-md bg-salmon-red hover:bg-salmon-tan text-salmon-tan hover:text-salmon-red tracking-wider uppercase font-semibold text-lg" href={props.heroButton?.link || "#"}>
-                {props.heroButton?.label} 
-              </a>
+              <div className="max-w-2xl mt-8 mb-4">
+                <a className="px-5 py-3 rounded-lg shadow-md bg-salmon-red hover:bg-salmon-tan text-salmon-tan hover:text-salmon-red tracking-wider uppercase font-semibold text-lg" data-tina-field={tinaField(props, "heroButton")} href={props.heroButton?.link || "#"}>
+                  {props.heroButton?.label} 
+                </a>
+              </div>
             </div>
           </div>
         </section>
-        <pre>{ JSON.stringify(props, null, 2) }</pre>
+        {/* <pre>{ JSON.stringify(props, null, 2) }</pre> */}
         </>
     )
 }

@@ -19,7 +19,7 @@ export function TextBox(props: PageSectionTextBox) {
                 </div>
             </div>
         </section>
-        <pre>{ JSON.stringify(props, null, 2) }</pre>
+        {/* <pre>{ JSON.stringify(props, null, 2) }</pre> */}
         </>
     )
 }
