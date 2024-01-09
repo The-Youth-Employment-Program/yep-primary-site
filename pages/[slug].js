@@ -4,6 +4,7 @@ import { Layout } from "../components/Layout";
 import { tinaField, useTina } from "tinacms/dist/react";
 import { client } from "../tina/__generated__/client";
 import { HeroBanner } from "../components/page_objects/hero-banner";
+import { ActionCards } from "../components/page_objects/action-cards"
 import { TextBox } from "../components/page_objects/titled-text";
 import { ContactForm } from "../components/page_objects/contact-form";
 import { SecondNav } from "../components/page_objects/secondary-nav";
@@ -30,6 +31,9 @@ export default function Home(props) {
           switch (part?.__typename) {
             case "PageSectionHeroBanner" : {
               return <HeroBanner key={i} {...part} />
+            }
+            case "PageSectionActionCards" : {
+              return <ActionCards key={i} {...part} />
             }
             case "PageSectionContactForm" : {
               return <ContactForm key={i} {...part} />

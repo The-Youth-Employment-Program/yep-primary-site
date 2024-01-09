@@ -24,6 +24,11 @@ export default {
             },
             fields:[
                 {
+                    label:"Action Icon",
+                    name: "actionIcon",
+                    type: "image"
+                },
+                {
                     label: "Action Card Title",
                     name: "cardTitle",
                     type: "string"

@@ -11,15 +11,20 @@ export function ActionCards(props: PageSectionActionCards) {
     */}
     return(
         <>
-        <section className="grid grid-cols-1 lg:grid-cols-3 lg:m-6">
+        <section className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 mb-6 md:m-6">
         {props.actionCard?.map((cards,i) => {
             return (
-                <div key={i} className="px-5 py-3 mt-4 mx-4 bg-salmon-green text-center">
-                    <h2 className="text-2xl font-medium" data-tina-field={tinaField(props[i],"cardTitle")}>{ cards?.cardTitle }</h2>
-                    <div className="pb-2" data-tina-field={tinaField(this, "actionText")}> {/* this call doesn't work */}
+                <div key={i} className=" py-3 mt-4 mx-4 rounded-lg shadow-md">
+                    <img className="pb-6 w-full rounded-xl" src={cards?.actionIcon || ""} data-tina-field={tinaField(props[i],"actionIcon")}/>
+                    <h2 className="px-5 text-2xl font-medium" data-tina-field={tinaField(props[i],"cardTitle")}>{ cards?.cardTitle }</h2>
+                    <div className="px-5 pb-2" data-tina-field={tinaField(this, "actionText")}> {/* this call doesn't work */}
                         <TinaMarkdown content={cards?.actionText} />
                     </div>
-                    <a className="mt-4 px-5 py-3 rounded-lg shadow-md bg-salmon-red hover:bg-salmon-tan text-salmon-tan hover:text-salmon-red tracking-wider uppercase font-semibold text-lg" data-tina-field={tinaField(this, "actionCall")} href={cards?.actionCall?.link || "#"}>{cards?.actionCall?.label}</a> {/* this call doesn't work */}
+                    <a className="flex items-center px-5 hover:text-salmon-tan text-salmon-red tracking-wider uppercase font-semibold text-lg" data-tina-field={tinaField(this, "actionCall")} href={cards?.actionCall?.link || "#"}>{cards?.actionCall?.label}
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="ml-2 w-5 h-5">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                        </svg>
+                    </a> {/* this call doesn't work */}
                 </div> 
             )
         })}
