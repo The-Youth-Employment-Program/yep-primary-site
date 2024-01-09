@@ -13,11 +13,14 @@
     {
       "sectionTitle": "Is it fun to work with us? YEP!",
       "sectionText": "This is an example of some text that doesn't need an image beside it if there are too many image full spaces. It allows the visitor to breathe instead of being cluttered by images **\"left\"** and **\"right\"**\n\n## Here's a secondary header\n\nYou can even break this section down into more complex messages because of the way it stores data in a \"rich-text\" format!\n",
+      "bg_color": "bg-salmon-green",
+      "text_color": "text-salmon-light-g2",
       "_template": "textBox"
     },
     {
       "actionCard": [
         {
+          "actionIcon": "",
           "cardTitle": "Want to work outside?",
           "actionText": "Work in the outdoors with industry professionals and gain practical experience in numerous fields!\n",
           "actionCall": {
@@ -26,6 +29,7 @@
           }
         },
         {
+          "actionIcon": "",
           "cardTitle": "Feeling Charitable?",
           "actionText": "Support our local communities by donating your time or resources\n",
           "actionCall": {
@@ -34,6 +38,7 @@
           }
         },
         {
+          "actionIcon": "",
           "cardTitle": "Have a Project?",
           "actionText": "Join YEP in providing engaging and meaningful projects to help our youth and community\n",
           "actionCall": {
@@ -57,6 +62,7 @@
     {
       "actionCard": [
         {
+          "actionIcon": "/uploads/PXL_20230801_212114218.jpg",
           "cardTitle": "Work in the Rocky Mountains",
           "actionText": "\"I want to build myself and make money\"\n\nor\n\n\"I want to get paid in the Rocky Mountains\n",
           "actionCall": {
@@ -65,6 +71,7 @@
           }
         },
         {
+          "actionIcon": "/uploads/PXL_20230715_164556834.jpg",
           "cardTitle": "Volunteer or Give",
           "actionText": "\"I want to help our youth, and I have some free resources!\"\n",
           "actionCall": {
@@ -73,6 +80,7 @@
           }
         },
         {
+          "actionIcon": "/uploads/PXL_20230720_172747770.jpg",
           "cardTitle": "Become a Partner",
           "actionText": "\"I want YEP to work on my projects!\"\n",
           "actionCall": {

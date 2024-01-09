@@ -19,6 +19,15 @@
       "_template": "secondaryNav"
     },
     {
+      "heroImage": "/uploads/PXL_20230715_164556834.jpg",
+      "heroText": "The Youth Employment Program",
+      "heroButton": {
+        "label": "Get Involved",
+        "link": "/join"
+      },
+      "_template": "heroBanner"
+    },
+    {
       "sectionTitle": "Woah",
       "sectionText": "Test me typing random stuff.\n",
       "_template": "textBox"

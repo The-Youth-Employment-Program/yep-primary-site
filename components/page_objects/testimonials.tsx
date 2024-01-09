@@ -9,7 +9,7 @@ export function Testimonials(props: PageSectionTestimonials) {
   //should each contain data-tina-field={tinaField(props, "testimonial")}
     return(
       <>
-        <section className="p-5 m-5 bg-salmon-green text-salmon-light-g2">  
+        <section className="h-96 p-5 bg-salmon-green text-salmon-light-g2">  
           {props.testimonial?.map((testimony,i) => {
             return(
               <div key={i} data-tina-field={tinaField(props[i],"testimonial")} className="text-lg"> {/*TinaField doesn't work */}

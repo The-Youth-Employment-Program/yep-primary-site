@@ -4,10 +4,11 @@ import { tinaField } from "tinacms/dist/react";
 import React from "react";
 
 export function TextBox(props: PageSectionTextBox) {
+    let mainstyle = `${props.bg_color} py-10 sm:py-20 lg:py-40 ${props.text_color} w-full px-5 sm:px-10 md:px-20`
     return(
         <>
-        <section>
-            <div className="py-20 lg:py-40 bg-salmon-dark-g2 text-salmon-light-g2 w-full text-center">
+        <section className="mb-6">
+            <div className={mainstyle}>
                 <div className="mb-4 text-3xl font-semibold" data-tina-field={tinaField(props, "sectionTitle")}>{props.sectionTitle}</div>
                 <div data-tina-field={tinaField(props, "sectionText")}>
                     <TinaMarkdown content={props.sectionText} components={{
