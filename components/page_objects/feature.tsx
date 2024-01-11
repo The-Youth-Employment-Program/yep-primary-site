@@ -11,7 +11,7 @@ export function Feature(props: PageSectionFeatures) {
     return(
         <>
         <section className="p-4 md:p-8">
-            <div className="container mx-auto space-y-12 [&>*:nth-child(even)]:lg:flex-row-reverse">
+            <div className="container mx-auto space-y-12 [&>*:nth-child(odd)]:lg:flex-row-reverse">
                 
                 {props.feature?.map((featureItem,i) => {
                     return( // Animate each one to scroll after delay?
@@ -19,9 +19,9 @@ export function Feature(props: PageSectionFeatures) {
                             <img src={featureItem.featureImage} alt="" className="object-center" /> {/* h-80 aspect-video  */}
                             <div className="flex flex-col justify-center flex-1 p-6">
                                 <span className="text-xs text-salmon-light-g1 uppercase">{featureItem.featureSubtext}</span>
-                                <h3 className="text-3xl text-salmon-dark-g1 font-bold">{featureItem.featureName}</h3>
+                                <a href={featureItem.featureLink}><h3 className="text-3xl text-salmon-dark-g1 font-bold">{featureItem.featureName}</h3></a>
                                 <p className="my-6 text-salmon-dark-g2">{featureItem.featureText}</p>
-                                <a href={featureItem.featureLink} className="flex self-start text-salmon-red">More
+                                <a href={featureItem.featureLink} className="flex self-start hover:text-salmon-tan text-salmon-red">More
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="ml-2 w-5 h-5">
                                         <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
                                     </svg>

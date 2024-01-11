@@ -15,8 +15,8 @@ export function ActionCards(props: PageSectionActionCards) {
         {props.actionCard?.map((cards,i) => {
             return (
                 <div key={i} className=" py-3 mt-4 mx-4 rounded-lg shadow-md">
-                    <img className="pb-6 w-full rounded-xl" src={cards?.actionIcon || ""} data-tina-field={tinaField(props[i],"actionIcon")}/>
-                    <h2 className="px-5 text-2xl font-medium" data-tina-field={tinaField(props[i],"cardTitle")}>{ cards?.cardTitle }</h2>
+                    <a data-tina-field={tinaField(this, "actionCall")} href={cards?.actionCall?.link || "#"}><img className="pb-6 w-full rounded-xl" src={cards?.actionIcon || ""} data-tina-field={tinaField(props[i],"actionIcon")}/></a>
+                    <a data-tina-field={tinaField(this, "actionCall")} href={cards?.actionCall?.link || "#"}><h2 className="px-5 text-2xl font-medium" data-tina-field={tinaField(props[i],"cardTitle")}>{ cards?.cardTitle }</h2></a>
                     <div className="px-5 pb-2" data-tina-field={tinaField(this, "actionText")}> {/* this call doesn't work */}
                         <TinaMarkdown content={cards?.actionText} />
                     </div>
