@@ -3,11 +3,18 @@
   "section": [
     {
       "navigationEntry": [
-        {},
-        {},
-        {},
-        {},
-        {}
+        {
+          "childPages": "content/page/history.json"
+        },
+        {
+          "childPages": "content/page/partners.json"
+        },
+        {
+          "childPages": "content/page/mission.json"
+        },
+        {
+          "childPages": "content/page/our-team.json"
+        }
       ],
       "_template": "secondaryNav"
     }

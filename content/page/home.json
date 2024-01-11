@@ -52,12 +52,34 @@
     {
       "testimonial": [
         {
+          "testimonialQuote": "What is Happening here",
+          "testimonialAttribution": "Broke",
+          "testimonialRole": "Dude"
+        },
+        {
           "testimonialQuote": "We hired a seasonal crew through the Youth Employment Program. They were a great help to each and every project we sent them on throughout the course of the summer(not real quote)",
           "testimonialAttribution": "Madi Crawford",
           "testimonialRole": "Forest Service Botanist"
         }
       ],
+      "bg_color": "bg-salmon-tan",
+      "text_color": "text-salmon-red",
+      "accent_color": "text-salmon-green",
       "_template": "testimonials"
+    },
+    {
+      "mainText": "Lorem Ipsum",
+      "image": "/uploads/PXL_20230718_163722766.jpg",
+      "bg_color": "bg-salmon-green",
+      "text_color": "text-salmon-dark-g2",
+      "_template": "rightImage"
+    },
+    {
+      "mainText": "Lorem Ipsum",
+      "image": "/uploads/PXL_20230801_212114218.jpg",
+      "bg_color": "bg-salmon-red",
+      "text_color": "text-salmon-light-g2",
+      "_template": "leftImage"
     },
     {
       "actionCard": [

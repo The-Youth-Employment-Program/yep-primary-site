@@ -1,3 +1,60 @@
 {
-  "pageTitle": "History"
+  "pageTitle": "History",
+  "section": [
+    {
+      "navigationEntry": [
+        {
+          "childPages": "content/page/history.json"
+        },
+        {
+          "childPages": "content/page/partners.json"
+        },
+        {
+          "childPages": "content/page/mission.json"
+        },
+        {
+          "childPages": "content/page/our-team.json"
+        }
+      ],
+      "_template": "secondaryNav"
+    },
+    {
+      "heroImage": "/uploads/PXL_20230621_144927443.jpg",
+      "heroText": "History of the Youth Employment Program",
+      "_template": "heroBanner"
+    },
+    {
+      "timelineTitle": "History of YEP",
+      "timelineDescription": "A brief summary",
+      "timelineEvent": [
+        {
+          "eventText": "tada",
+          "eventTitle": "New One",
+          "eventDate": "2024-01-04T00:00:00.000Z"
+        },
+        {
+          "eventText": "Open Dillon office!",
+          "eventTitle": "Expanding our Communities",
+          "eventDate": "2024-01-10T00:00:00.000Z"
+        },
+        {
+          "eventText": "We partner with the Southwest Montana Sagebrush Partnership",
+          "eventTitle": "New Partner!",
+          "eventDate": "2024-01-01T00:00:00.000Z"
+        },
+        {
+          "eventText": "Trail-work or something",
+          "eventTitle": "Big Project",
+          "eventDate": "2023-12-07T00:00:00.000Z"
+        },
+        {
+          "eventText": "Woooo!!!",
+          "eventTitle": "So it begins",
+          "eventDate": "2023-12-04T00:00:00.000Z"
+        }
+      ],
+      "accent_color": "before:dark:bg-salmon-red",
+      "_template": "timeline"
+    }
+  ]
 }
