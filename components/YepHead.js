@@ -42,7 +42,7 @@ export const YepHead = () => {
       <Link href="/posts">
         <a className="mt-2 block px-2 py-1 text-salmon-red rounded hover:bg-salmon-red hover:text-salmon-tan focus:text-salmon-green focus:bg-salmon-tan font-medium tracking-wider sm:mt-0 sm:mr-2">Posts</a>
       </Link>
-      <Link href="/contact">
+      <Link href="/contacts">
         <a className="mt-2 block px-2 py-1 text-salmon-red rounded hover:bg-salmon-red hover:text-salmon-tan focus:text-salmon-green focus:bg-salmon-tan font-medium tracking-wider sm:mt-0 sm:mr-2">Contact</a>
       </Link>
       <div className="hidden sm:flex sm:items-center sm:pr-4">
