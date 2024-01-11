@@ -4,6 +4,7 @@ import { Layout } from "../components/Layout";
 import { tinaField, useTina } from "tinacms/dist/react";
 import { client } from "../tina/__generated__/client";
 import { HeroBanner } from "../components/page_objects/hero-banner";
+import { Feature } from "../components/page_objects/feature";
 import { ActionCards } from "../components/page_objects/action-cards"
 import { TextBox } from "../components/page_objects/titled-text";
 import { ContactForm } from "../components/page_objects/contact-form";
@@ -11,7 +12,8 @@ import { SecondNav } from "../components/page_objects/secondary-nav";
 import { Testimonials } from "../components/page_objects/testimonials";
 import { LeftImage } from "../components/page_objects/left-image";
 import { RightImage } from "../components/page_objects/right-image";
-import { Adornment } from "../tina/collections/page_objects/adornment";
+import { Adornment } from "../components/page_objects/adornment";
+import { Timeline } from "../components/page_objects/timeline";
 
 export default function Home(props) {
   // data passes though in production mode and data is updated to the sidebar data in edit-mode
@@ -21,7 +23,6 @@ export default function Home(props) {
     data: props.data,
   });
 
-  const content = data.page.body;
   return (
     <Layout>
       <Head>
@@ -31,6 +32,9 @@ export default function Home(props) {
           switch (part?.__typename) {
             case "PageSectionHeroBanner" : {
               return <HeroBanner key={i} {...part} />
+            }
+            case "PageSectionFeatures" : {
+              return <Feature key={i} {...part} />
             }
             case "PageSectionActionCards" : {
               return <ActionCards key={i} {...part} />
@@ -55,6 +59,9 @@ export default function Home(props) {
             }
             case "PageSectionAdornment" : {
               return <Adornment key={i} {...part} />
+            }
+            case "PageSectionTimeline" : {
+              return <Timeline key={i} {...part} />
             }
           }
         })}

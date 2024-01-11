@@ -2,6 +2,7 @@
  * @type {import('tinacms').Collection}
  */
 import heroBanner from "./page_objects/hero_banner";
+import feature from "./page_objects/feature";
 import titledText from "./page_objects/titled_text";
 import secondaryNav from "./page_objects/secondary_nav";
 import actionCards from "./page_objects/action_cards";
@@ -10,6 +11,7 @@ import contactForm from "./page_objects/contact_form";
 import leftImage from "./page_objects/left_image";
 import rightImage from "./page_objects/right_image";
 import adornment from "./page_objects/adornment";
+import timeline from "./page_objects/timeline";
 
 export default {
   label: "Page Content",
@@ -31,6 +33,7 @@ export default {
         list: true,
         templates: [
           heroBanner,
+          feature,
           titledText,
           secondaryNav,
           actionCards,
@@ -38,7 +41,8 @@ export default {
           contactForm,
           leftImage,
           rightImage,
-          adornment
+          adornment,
+          timeline,
         ]
       }
 
