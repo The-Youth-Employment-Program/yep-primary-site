@@ -14,6 +14,7 @@ import { LeftImage } from "../components/page_objects/left-image";
 import { RightImage } from "../components/page_objects/right-image";
 import { Adornment } from "../components/page_objects/adornment";
 import { Timeline } from "../components/page_objects/timeline";
+import { StripeCards } from "../components/page_objects/stripe-cards";
 
 export default function Home(props) {
   // data passes though in production mode and data is updated to the sidebar data in edit-mode
@@ -62,6 +63,9 @@ export default function Home(props) {
             }
             case "PageSectionTimeline" : {
               return <Timeline key={i} {...part} />
+            }
+            case "PageSectionStripeCards" : {
+              return <StripeCards key={i} {...part} />
             }
           }
         })}
