@@ -1,3 +1,82 @@
 {
-  "pageTitle": "Donate"
+  "pageTitle": "Donate",
+  "section": [
+    {
+      "navigationEntry": [
+        {
+          "childPages": "content/page/technical-career-training.json"
+        },
+        {
+          "childPages": "content/page/sponsor.json"
+        },
+        {
+          "childPages": "content/page/volunteer.json"
+        },
+        {
+          "childPages": "content/page/donate.json"
+        },
+        {
+          "childPages": "content/page/supporters.json"
+        }
+      ],
+      "_template": "secondaryNav"
+    },
+    {
+      "testimonial": [
+        {
+          "testimonialQuote": "The money donated to this 501(c) non-profit definitely didn't go into lobbying campaigns. Helped me avoid paying my rightful taxes by 'lowering' my income though.",
+          "testimonialAttribution": "Jim, Earthworm",
+          "testimonialRole": "Donated $100,000,  Q1 2021"
+        }
+      ],
+      "bg_color": "",
+      "text_color": "",
+      "_template": "testimonials"
+    },
+    {
+      "stripeCard": [
+        {
+          "cardTitle": "$25",
+          "stripeText": "Donate $25 to YEP.\n",
+          "stripeCall": {
+            "label": "Donate",
+            "link": ""
+          }
+        },
+        {
+          "cardTitle": "$50",
+          "stripeText": "Donate $50 to YEP.\n",
+          "stripeCall": {
+            "label": "Donate",
+            "link": ""
+          }
+        },
+        {
+          "cardTitle": "$100",
+          "stripeText": "Donate $100\n",
+          "stripeCall": {
+            "label": "Donate",
+            "link": ""
+          }
+        },
+        {
+          "cardTitle": "Custom Amount",
+          "stripeText": "Choose a custom amount to donate.\n",
+          "stripeCall": {
+            "label": "Donate",
+            "link": ""
+          }
+        }
+      ],
+      "_template": "stripeCards"
+    },
+    {
+      "sectionTitle": "Legal",
+      "sectionText": "I have no idea if theses count as tax deductible, but if they are the info will go here along with any other additional info/legalese.\n",
+      "text_alignment": "text-right",
+      "bg_color": "bg-salmon-tan",
+      "text_color": "text-salmon-dark-g1",
+      "_template": "textBox"
+    }
+  ]
 }

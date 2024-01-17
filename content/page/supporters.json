@@ -1,3 +1,25 @@
 {
-  "pageTitle": "Supporters"
+  "pageTitle": "Supporters",
+  "section": [
+    {
+      "navigationEntry": [
+        {
+          "childPages": "content/page/technical-career-training.json"
+        },
+        {
+          "childPages": "content/page/sponsor.json"
+        },
+        {
+          "childPages": "content/page/volunteer.json"
+        },
+        {
+          "childPages": "content/page/donate.json"
+        },
+        {
+          "childPages": "content/page/supporters.json"
+        }
+      ],
+      "_template": "secondaryNav"
+    }
+  ]
 }

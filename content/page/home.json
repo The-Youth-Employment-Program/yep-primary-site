@@ -70,15 +70,11 @@
     {
       "mainText": "Lorem Ipsum",
       "image": "/uploads/PXL_20230718_163722766.jpg",
-      "bg_color": "bg-salmon-green",
-      "text_color": "text-salmon-dark-g2",
       "_template": "rightImage"
     },
     {
       "mainText": "Lorem Ipsum",
       "image": "/uploads/PXL_20230801_212114218.jpg",
-      "bg_color": "bg-salmon-red",
-      "text_color": "text-salmon-light-g2",
       "_template": "leftImage"
     },
     {
