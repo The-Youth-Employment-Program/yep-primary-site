@@ -17,7 +17,7 @@ export function ActionCards(props: PageSectionActionCards) {
                 <div key={i} className=" py-3 mt-4 mx-4 rounded-lg shadow-md">
                     <a data-tina-field={tinaField(this, "actionCall")} href={cards?.actionCall?.link || "#"}><img className="pb-6 w-full rounded-xl" src={cards?.actionIcon || ""} data-tina-field={tinaField(props[i],"actionIcon")}/></a>
                     <a data-tina-field={tinaField(this, "actionCall")} href={cards?.actionCall?.link || "#"}><h2 className="px-5 mb-4 text-2xl font-medium text-salmon-dark-g1" data-tina-field={tinaField(props[i],"cardTitle")}>{ cards?.cardTitle }</h2></a>
-                    <div className="ml-2 px-5" data-tina-field={tinaField(this, "actionText")}> {/* this call doesn't work */}
+                    <div className="px-5" data-tina-field={tinaField(this, "actionText")}> {/* this call doesn't work */}
                         <TinaMarkdown content={cards?.actionText} components={{p: props => <p className=" text-salmon-dark-g2-" {...props} />}} />
                     </div>
                     <a className="flex items-center mt-4 px-5 hover:text-salmon-tan text-salmon-red tracking-wider uppercase font-semibold text-lg" data-tina-field={tinaField(this, "actionCall")} href={cards?.actionCall?.link || "#"}>{cards?.actionCall?.label}
