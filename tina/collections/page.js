@@ -12,6 +12,7 @@ import leftImage from "./page_objects/left_image";
 import rightImage from "./page_objects/right_image";
 import adornment from "./page_objects/adornment";
 import timeline from "./page_objects/timeline";
+import stripeCards from "./page_objects/stripe_cards";
 
 export default {
   label: "Page Content",
@@ -43,6 +44,7 @@ export default {
           rightImage,
           adornment,
           timeline,
+          stripeCards,
         ]
       }
 
