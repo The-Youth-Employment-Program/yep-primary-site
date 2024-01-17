@@ -1,7 +1,8 @@
 import { defineConfig } from "tinacms";
 import page from "./collections/page";
 import post from "./collections/post";
-import contact from "./collections/contact"
+import contact from "./collections/contact";
+import team from "./collections/team";
 
 export const config = defineConfig({
   clientId: process.env.NEXT_PUBLIC_TINA_CLIENT_ID,
@@ -27,7 +28,7 @@ export const config = defineConfig({
     outputFolder: "admin", // within the public folder
   },
   schema: {
-    collections: [page, post, contact],
+    collections: [page, post, contact, team],
   },
 });
 
