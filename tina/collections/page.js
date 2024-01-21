@@ -41,7 +41,7 @@ export default {
           contactForm,
           leftImage,
           rightImage,
-          adornment,
+//          adornment,
           timeline,
         ]
       }
