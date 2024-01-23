@@ -14,7 +14,7 @@ export const Layout = (props) => {
     </Head>
     <div className="bg-slate-100">
       <YepHead />
-      <main>{props.children}</main>
+      <main className='mx-0 sm:mx-10 md:mx-20 lg:mx-24 2xl:mx-52'>{props.children}</main> {/* className='2xl:mx-40' */}
       <YepFoot />
     </div>
     </>

@@ -5,22 +5,26 @@ import { tinaField } from "tinacms/dist/react";
 import React from "react";
 
 export function RightImage(props: PageSectionRightImage) {
+    let sectionStyle = `mt-14 sm:mt-0 md:grid md:grid-flow-dense md:grid-cols-2 lg:grid-cols-8 md:gap-0 md:my-10 md:rounded-lg md:shadow-md ${props.bg_color} ${props.text_color}`
     return(
-      <>
-        <section className="">  
-            <div className="">
-                <div className="" data-tina-field={tinaField(props, "title")}>
-                    {props.title}
-                </div>
-                <div className="" data-tina-field={tinaField(props, "mainText")}>
+        <section className={sectionStyle}>  
+            <div className="md:col-start-1 md:col-span-1 lg:col-start-1 lg:col-span-5 mt-2 py-4 md:py-8 lg:py-16 xl:py-32 md:px-6 lg:text-xl lg:my-20 lg:mx-4 lg:px-6 text-justify">
+                { props.title && 
+                    <div className="text-2xl mb-4 lg:text-3xl" data-tina-field={tinaField(props, "title")}>
+                        {props.title}
+                    </div> 
+                }
+                <div className="min-h-60" data-tina-field={tinaField(props, "mainText")}>
                     {props.mainText}
                 </div>
-                <div className="" data-tina-field={tinaField(props, "image")}>
-                    <img src={props.image || ""} />
-                </div>
+            </div>
+            <div className="md:col-start-2 md:col-span-1 lg:col-span-3 rounded-e-xl bg-center bg-cover" style={{backgroundImage: `url('${props.image}')`}} data-tina-field={tinaField(props, "image")}>
+                <a className="size-full">
+                    <img className="md:hidden min-h-full" src={props.image || ""} />
+                </a>
             </div>
         </section>
-        {/* <pre>{ JSON.stringify(props, null, 2) }</pre> */}
-        </>
     )
 }
+
+{/* <pre>{ JSON.stringify(props, null, 2) }</pre> */}

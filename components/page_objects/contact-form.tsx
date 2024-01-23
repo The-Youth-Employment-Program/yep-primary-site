@@ -12,12 +12,12 @@ export function ContactForm(props: PageSectionContactForm) {
                 <p data-tina-field={tinaField(props, "contactActionCall")} className="mb-8 text-2xl font-semibold">{props.contactActionCall || ""}</p>
             </div>
             <div className="inline-block">
-                <img src="/uploads/static-assets/Zuni.png" className="hidden md:w-44 lg:w-64 md:inline-block mr-4 md:mr-8 lg:mr-16"/>
+                <img src="/uploads/static-assets/Zuni.png" className="hidden lg:w-28 xl:w-32 2xl:w-36 mr-6 xl:mr-14 2xl:mr-20 3xl:ml-28 lg:inline-block"/> {/* mr-4 md:mr-8 lg:mr-16 */}
                 <input type="email" name="contact-email" className="p-2 rounded-md bg-salmon-light-g2 text-salmon-dark-g2" placeholder="Your email here!"/>
                 <div data-tina-field={tinaField(props, "contactButtonText")} className="inline-block ml-4 px-4 py-2 rounded-lg shadow-lg bg-salmon-red">
                     <a href="/">{props.contactButtonText || ""}</a> {/* send email data to Reach out list? */}
                 </div>
-                <img src="uploads/static-assets/Saw.png" className="hidden md:w-44 lg:w-64 md:inline-block ml-4 md:ml-8 lg:ml-16"/>
+                <img src="uploads/static-assets/Saw.png" className="hidden lg:w-28 xl:w-32 2xl:w-36 ml-6 xl:ml-14 2xl:ml-20 3xl:ml-28 lg:inline-block"/> {/* ml-0 sm:ml-2 md:ml-8 lg:ml-16*/}
             </div>
             <div className="pt-4">
                 <p data-tina-field={tinaField(props,"contactStatement")}>{props.contactStatement || ""}</p>
