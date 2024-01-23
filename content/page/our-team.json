@@ -7,7 +7,7 @@
           "childPages": "content/page/history.json"
         },
         {
-          "childPages": "content/page/partners.json"
+          "childPages": "content/page/partners-old.json"
         },
         {
           "childPages": "content/page/mission.json"

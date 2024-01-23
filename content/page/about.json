@@ -7,7 +7,7 @@
           "childPages": "content/page/history.json"
         },
         {
-          "childPages": "content/page/partners.json"
+          "childPages": "content/page/partners-old.json"
         },
         {
           "childPages": "content/page/mission.json"
@@ -47,14 +47,14 @@
           "featureName": "Our Team",
           "featureImage": "/uploads/PXL_20230718_163722766.jpg",
           "featureText": "YEP is overflowing with great personalities and talent actively engaged in supporting the leadership of tomorrow's communities. We shine by polishing our workforce and ourselves through fun and hard work in the outdoors.\nWe are compelled to forge lasting relationships and memories through work driven experiences and Technical Career Training[link?]",
-          "featureLink": "/our-team",
+          "featureLink": "/team",
           "featureSubtext": "YEP Leadership"
         },
         {
           "featureName": "Partners",
           "featureImage": "/uploads/PXL_20230720_172747770.jpg",
           "featureText": "The Youth Employment Program has built up meaningful relationships with a number of organizations we are happy to call our partners. These organizations share our mission or have dedicated themselves to aid us in our mission to develop outstanding leaders for our shared communities and ecosystems.",
-          "featureLink": "/partners",
+          "featureLink": "/team/partners",
           "featureSubtext": "YEP's Official Partners"
         },
         {

@@ -7,7 +7,7 @@
           "childPages": "content/page/history.json"
         },
         {
-          "childPages": "content/page/partners.json"
+          "childPages": "content/page/partners-old.json"
         },
         {
           "childPages": "content/page/mission.json"
@@ -17,6 +17,23 @@
         }
       ],
       "_template": "secondaryNav"
+    },
+    {
+      "sectionTitle": "YEP's Mission",
+      "sectionText": "To engage in activities to educate, promote, and develop youth employment, work ethics, job skills, values, self-esteem, life skills, and career development; providing diverse and enriched youth employment options for participants. To assist \\[in] the area youth develop into outstanding citizens, who are responsible and productive members of the regional workforce, and to create lasting impacts in our communities and ecosystems.\n",
+      "_template": "textBox"
+    },
+    {
+      "feature": [
+        {
+          "featureName": "Track our Progress",
+          "featureImage": "/uploads/PXL_20230720_154334508.jpg",
+          "featureText": "Check out our Annual reports and Newsletter here",
+          "featureLink": "/posts",
+          "featureSubtext": "Keep up on everything YEP"
+        }
+      ],
+      "_template": "features"
     }
   ]
 }

@@ -2,15 +2,6 @@
   "pageTitle": "Support",
   "section": [
     {
-      "heroImage": "/uploads/PXL_20230715_164541717.jpg",
-      "heroText": "Test",
-      "heroButton": {
-        "label": "",
-        "link": ""
-      },
-      "_template": "heroBanner"
-    },
-    {
       "navigationEntry": [
         {
           "childPages": "content/page/technical-career-training.json"
@@ -29,6 +20,15 @@
         }
       ],
       "_template": "secondaryNav"
+    },
+    {
+      "heroImage": "/uploads/PXL_20230715_164541717.jpg",
+      "heroText": "Test",
+      "heroButton": {
+        "label": "",
+        "link": ""
+      },
+      "_template": "heroBanner"
     }
   ]
 }
