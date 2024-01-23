@@ -1182,6 +1182,10 @@ video {
   text-align: center;
 }
 
+.text-right {
+  text-align: right;
+}
+
 .text-justify {
   text-align: justify;
 }
@@ -1609,6 +1613,10 @@ video {
 
   .md\:col-start-2 {
     grid-column-start: 2;
+  }
+
+  .md\:m-6 {
+    margin: 1.5rem;
   }
 
   .md\:mx-20 {
