@@ -1,3 +1,72 @@
 {
-  "pageTitle": "Sponsor"
+  "pageTitle": "Sponsor",
+  "section": [
+    {
+      "navigationEntry": [
+        {
+          "childPages": "content/page/technical-career-training.json"
+        },
+        {
+          "childPages": "content/page/sponsor.json"
+        },
+        {
+          "childPages": "content/page/volunteer.json"
+        },
+        {
+          "childPages": "content/page/donate.json"
+        },
+        {
+          "childPages": "content/page/supporters.json"
+        }
+      ],
+      "_template": "secondaryNav"
+    },
+    {
+      "testimonial": [
+        {
+          "testimonialQuote": "They just gave me $100 worth of gloves. I only have two hands and I don't know what I'm supposed to do with all these gloves now.",
+          "testimonialAttribution": "Guy, Guy",
+          "testimonialRole": "2023 Seasonal Dirt Grub"
+        }
+      ],
+      "_template": "testimonials"
+    },
+    {
+      "stripeCard": [
+        {
+          "cardTitle": "$25",
+          "stripeText": "Sponsor $25 worth of supplies to a crewmember.\n",
+          "stripeCall": {
+            "label": "Donate",
+            "link": ""
+          }
+        },
+        {
+          "cardTitle": "$50",
+          "stripeText": "Sponsor $50 worth of supplies to a crewmember.\n",
+          "stripeCall": {
+            "label": "Donate",
+            "link": ""
+          }
+        },
+        {
+          "cardTitle": "$100",
+          "stripeText": "Sponsor $100 worth of supplies to a crewmember.\n",
+          "stripeCall": {
+            "label": "Donate",
+            "link": ""
+          }
+        }
+      ],
+      "_template": "stripeCards"
+    },
+    {
+      "sectionTitle": "Legal",
+      "sectionText": "I have no idea if theses count as tax deductible, but if they are the info will go here along with any other additional info/legalese.\n",
+      "text_alignment": "text-center",
+      "bg_color": "bg-salmon-tan",
+      "text_color": "text-salmon-dark-g1",
+      "_template": "textBox"
+    }
+  ]
 }

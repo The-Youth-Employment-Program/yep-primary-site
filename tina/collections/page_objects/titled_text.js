@@ -19,6 +19,26 @@ export default {
             name:"sectionText"
         },
         {
+            label:"Text Alignment",
+            name: "text_alignment",
+            type:"string",
+            list:false,
+            options: [
+                {
+                    value:'text-left',
+                    label:'Left Align'
+                },
+                {
+                    value:'text-center',
+                    label:'Center Align'
+                },
+                {
+                    value:'text-right',
+                    label:'Right Align'
+                }
+            ]
+        },
+        {
             label:"Background Color",
             name: "bg_color",
             type:"string",

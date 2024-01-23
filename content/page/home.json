@@ -70,16 +70,15 @@
     {
       "mainText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et mi sollicitudin, aliquet metus id, ultricies ipsum. Etiam ex ipsum, volutpat sed porta vitae, molestie eget velit. Fusce metus risus, aliquam sit amet risus vel, fermentum placerat quam. Nullam sagittis lacinia lectus, quis posuere velit euismod ut. Suspendisse at nibh laoreet purus varius varius. Donec pulvinar ultrices auctor. Nunc volutpat nibh nec dolor venenatis dignissim. Donec sed diam vitae felis interdum varius. Aliquam mi orci, dapibus vel arcu a, bibendum mattis felis. Sed eros felis, aliquet vel malesuada vel, bibendum eget risus.\n",
       "image": "/uploads/PXL_20230718_163722766.jpg",
-      "bg_color": "",
-      "text_color": "",
+      "bg_color": "bg-salmon-green",
+      "text_color": "text-salmon-dark-g2",
       "_template": "rightImage"
     },
     {
       "mainText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et mi sollicitudin, aliquet metus id, ultricies ipsum. Etiam ex ipsum, volutpat sed porta vitae, molestie eget velit. Fusce metus risus, aliquam sit amet risus vel, fermentum placerat quam. Nullam sagittis lacinia lectus, quis posuere velit euismod ut. Suspendisse at nibh laoreet purus varius varius. Donec pulvinar ultrices auctor. Nunc volutpat nibh nec dolor venenatis dignissim. Donec sed diam vitae felis interdum varius. Aliquam mi orci, dapibus vel arcu a, bibendum mattis felis. Sed eros felis, aliquet vel malesuada vel, bibendum eget risus.",
       "image": "/uploads/PXL_20230801_212114218.jpg",
-      "title": "Workers don't grow on trees",
-      "bg_color": "",
-      "text_color": "",
+      "bg_color": "bg-salmon-red",
+      "text_color": "text-salmon-light-g2",
       "_template": "leftImage"
     },
     {
