@@ -39,6 +39,11 @@ export default {
             ]
         },
         {
+            label:"Background Image",
+            name:"bg_img",
+            type:"image"
+        },
+        {
             label:"Background Color",
             name: "bg_color",
             type:"string",
