@@ -25,6 +25,35 @@ export default {
             type:"string"
         },
         {
+            label:"Page Link",
+            name:"pageLink",
+            type:"object",
+            ui:{
+                defaultItem:{
+                    label:"Home!",
+                    link:"/"
+                },
+            },
+            fields:[
+                {
+                    label:"Call to Action",
+                    name:"label",
+                    type:"string"
+                },
+                {
+                    label:"Link Page",
+                    name:"link",
+                    type:"string"
+                },
+                {
+                    label:"New Tab",
+                    name:"newTab",
+                    description:"Open link in new tab.",
+                    type:"boolean"
+                }
+            ]
+        },
+        {
             label:"Background Color",
             name: "bg_color",
             type:"string",

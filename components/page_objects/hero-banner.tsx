@@ -14,24 +14,38 @@ export function HeroBanner(props: PageSectionHeroBanner) {
                 { props.heroText }
                 { props.heroButton?.label && 
                   <div className="max-w-2xl mt-8 mb-4">
-                    <a className="px-5 py-3 rounded-lg shadow-md bg-salmon-red hover:bg-salmon-tan text-salmon-tan hover:text-salmon-red tracking-wider uppercase font-semibold text-lg" data-tina-field={tinaField(props, "heroButton")} href={props.heroButton?.link || "#"}>
-                      {props.heroButton?.label} 
-                    </a>
+                    { props.heroButton?.newTab && 
+                      <a className="px-5 py-3 rounded-lg shadow-md bg-salmon-red hover:bg-salmon-tan text-salmon-tan hover:text-salmon-red tracking-wider uppercase font-semibold text-lg" data-tina-field={tinaField(props, "heroButton")} href={props.heroButton?.link || "#"} target="_blank">
+                        {props.heroButton?.label} 
+                      </a>
+                    }
+                    { !props.heroButton?.newTab && 
+                      <a className="px-5 py-3 rounded-lg shadow-md bg-salmon-red hover:bg-salmon-tan text-salmon-tan hover:text-salmon-red tracking-wider uppercase font-semibold text-lg" data-tina-field={tinaField(props, "heroButton")} href={props.heroButton?.link || "#"}>
+                        {props.heroButton?.label} 
+                      </a>
+                    }
                   </div>
                 }
               </div>
             }
             { !props.heroText && props.heroButton?.label && 
                 <div className="text-center">
-                  <a className="px-5 py-3 rounded-lg shadow-md bg-salmon-red hover:bg-salmon-tan text-salmon-tan hover:text-salmon-red tracking-wider uppercase font-semibold text-lg" data-tina-field={tinaField(props, "heroButton")} href={props.heroButton?.link || "#"}>
-                    {props.heroButton?.label} 
-                  </a>
+                  { props.heroButton?.newTab &&
+                    <a className="px-5 py-3 rounded-lg shadow-md bg-salmon-red hover:bg-salmon-tan text-salmon-tan hover:text-salmon-red tracking-wider uppercase font-semibold text-lg" data-tina-field={tinaField(props, "heroButton")} href={props.heroButton?.link || "#"} target="_blank">
+                      {props.heroButton?.label} 
+                    </a>
+                  }
+                  { !props.heroButton?.newTab &&
+                    <a className="px-5 py-3 rounded-lg shadow-md bg-salmon-red hover:bg-salmon-tan text-salmon-tan hover:text-salmon-red tracking-wider uppercase font-semibold text-lg" data-tina-field={tinaField(props, "heroButton")} href={props.heroButton?.link || "#"}>
+                      {props.heroButton?.label} 
+                    </a>
+                  }
                 </div>
             }
           </div>
         </section>
         {/* <pre>{ JSON.stringify(props, null, 2) }</pre> */}
-        </>
+      </>
     )
 }
 

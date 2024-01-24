@@ -35,6 +35,12 @@ export default {
                         label:"Link Page",
                         name:"link",
                         type:"string"
+                    },
+                    {
+                        label:"New Tab",
+                        name:"newTab",
+                        description:"Open link in new tab.",
+                        type:"boolean"
                     }
                 ]
             }

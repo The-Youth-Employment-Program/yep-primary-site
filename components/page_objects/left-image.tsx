@@ -17,6 +17,13 @@ export function LeftImage(props: PageSectionLeftImage) {
                 <div className="min-h-60" data-tina-field={tinaField(props, "mainText")}>
                     {props.mainText}
                 </div>
+                { props.pageLink &&
+                    <a className="flex items-center mt-6 hover:text-salmon-tan text-salmon-red tracking-wider uppercase font-semibold text-lg" data-tina-field={tinaField(this, "pageLink")} href={props?.pageLink?.link || "#"}>{props?.pageLink?.label}
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="ml-2 w-5 h-5">
+                            <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                            </svg>
+                    </a>
+                }
             </div>
             <div className="md:col-start-1 md:col-span-1 lg:col-span-3 rounded-s-xl bg-center bg-cover" style={{backgroundImage: `url('${props.image}')`}} data-tina-field={tinaField(props, "image")}>
                 <a className="size-full">
