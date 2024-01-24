@@ -1,3 +1,36 @@
 {
-    "pageTitle": "Work at YEP"
+  "pageTitle": "Work at YEP",
+  "section": [
+    {
+      "navigationEntry": [
+        {
+          "childPages": "content/page/join.json"
+        },
+        {
+          "childPages": "content/page/work.json"
+        },
+        {
+          "childPages": "content/page/volunteer.json"
+        }
+      ],
+      "_template": "secondaryNav"
+    },
+    {
+      "heroImage": "/uploads/PXL_20230720_170352420.jpg",
+      "heroButton": {
+        "label": "Get to Work"
+      },
+      "_template": "heroBanner"
+    },
+    {
+      "mainText": "Get ready to gain career experience in the outdoors, work with field specialists, and have a great time doing it!",
+      "image": "/uploads/PXL_20230803_172325300.jpg",
+      "title": "Work at YEP",
+      "pageLink": {
+        "label": "Apply for Work",
+        "newTab": true
+      },
+      "_template": "rightImage"
+    }
+  ]
 }

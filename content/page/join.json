@@ -1,3 +1,52 @@
 {
-    "pageTitle": "Partner with YEP!"
+  "pageTitle": "Partner with YEP!",
+  "section": [
+    {
+      "navigationEntry": [
+        {
+          "childPages": "content/page/join.json"
+        },
+        {
+          "childPages": "content/page/work.json"
+        },
+        {
+          "childPages": "content/page/volunteer.json"
+        }
+      ],
+      "_template": "secondaryNav"
+    },
+    {
+      "heroImage": "/uploads/PXL_20230720_172747770.jpg",
+      "heroText": "Apply to be a Partner with the Youth Employment Program!",
+      "heroButton": {
+        "label": "Partner Scope of Work",
+        "link": "https://docs.google.com/document/d/1fyULlsz5FHWmR-rvDC4nwC5yuhdPEDa0kuy1Zs2PWac/edit",
+        "newTab": true
+      },
+      "_template": "heroBanner"
+    },
+    {
+      "mainText": "Partner with Youth Employment Program to get your projects done, help provide experience and work for local youth, and better our communities and ecosystems.",
+      "image": "/uploads/PXL_20230720_172747770.jpg",
+      "title": "Work with us",
+      "pageLink": {
+        "label": "Apply for Partnership",
+        "link": "https://docs.google.com/document/d/1fyULlsz5FHWmR-rvDC4nwC5yuhdPEDa0kuy1Zs2PWac/edit",
+        "newTab": true
+      },
+      "_template": "leftImage"
+    },
+    {
+      "feature": [
+        {
+          "featureName": "Existing Partners",
+          "featureImage": "/uploads/PXL_20230720_170352420.jpg",
+          "featureText": "The Youth Employment Program has built up meaningful relationships with a number of organizations we are happy to call our partners. These organizations share our mission or have dedicated themselves to aid us in our mission to develop outstanding leaders for our shared communities and ecosystems.",
+          "featureLink": "/team/partners",
+          "featureSubtext": "Individuals and Organizations"
+        }
+      ],
+      "_template": "features"
+    }
+  ]
 }

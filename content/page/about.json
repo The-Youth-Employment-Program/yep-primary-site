@@ -68,9 +68,36 @@
       "_template": "features"
     },
     {
-      "sectionTitle": "Woah",
-      "sectionText": "Test me typing random stuff.\n",
-      "_template": "textBox"
+      "actionCard": [
+        {
+          "actionIcon": "",
+          "cardTitle": "Want to work outside?",
+          "actionText": "Work in the outdoors with industry professionals and gain practical experience in numerous fields!\n",
+          "actionCall": {
+            "label": "Join",
+            "link": "/work"
+          }
+        },
+        {
+          "actionIcon": "",
+          "cardTitle": "Feeling Charitable?",
+          "actionText": "Support our local communities by donating your time or resources\n",
+          "actionCall": {
+            "label": "Give",
+            "link": "/support"
+          }
+        },
+        {
+          "actionIcon": "",
+          "cardTitle": "Have a Project?",
+          "actionText": "Join YEP in providing engaging and meaningful projects to help our youth and community\n",
+          "actionCall": {
+            "label": "Provide",
+            "link": "/join"
+          }
+        }
+      ],
+      "_template": "actionCards"
     }
   ]
 }
