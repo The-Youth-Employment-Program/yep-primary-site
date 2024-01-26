@@ -3,6 +3,7 @@ import page from "./collections/page";
 import post from "./collections/post";
 import contact from "./collections/contact";
 import team from "./collections/team";
+import stripeContent from "./collections/stripe-content"
 
 export const config = defineConfig({
   clientId: process.env.NEXT_PUBLIC_TINA_CLIENT_ID,
@@ -28,7 +29,7 @@ export const config = defineConfig({
     outputFolder: "admin", // within the public folder
   },
   schema: {
-    collections: [page, post, contact, team],
+    collections: [page, post, contact, team, stripeContent],
   },
 });
 
