@@ -14,11 +14,11 @@ export default {
                     return { label: item?.cardTitle || "Stripe Card" }
                 },
                 defaultItem: {
-                    "cardTitle": "",
-                    "stripeText": "Work in the outdoors with industry professionals and gain practical experience in numerous fields!\n",
+                    "cardTitle": "$",
+                    "stripeText": "Donate ${} to YEP.\n",//Currently broken
                     "stripeCall": {
-                        "label": "Join",
-                        "link": "/work"
+                        "label": "Donate",
+                        "link": ""
                     }
                 }
             },
@@ -39,7 +39,7 @@ export default {
                     type: "rich-text"
                 },
                 {
-                    label:"Call to Action",
+                    label:"Stripe API ID",
                     name:"stripeCall",
                     type:"object",
                     ui:{
@@ -50,12 +50,12 @@ export default {
                     },
                     fields:[
                         {
-                            label:"Stripe Call",
+                            label:"Button Text",
                             name:"label",
                             type:"string"
                         },
                         {
-                            label:"Link Page",
+                            label:"API ID",
                             name:"link",
                             type:"string"
                         },
