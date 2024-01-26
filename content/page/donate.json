@@ -40,7 +40,7 @@
           "stripeText": "Donate $25 to YEP.\n",
           "stripeCall": {
             "label": "Donate",
-            "link": ""
+            "link": "https://buy.stripe.com/test_cN26oN3khbCN2m4aEE"
           }
         },
         {
@@ -48,7 +48,7 @@
           "stripeText": "Donate $50 to YEP.\n",
           "stripeCall": {
             "label": "Donate",
-            "link": ""
+            "link": "https://buy.stripe.com/test_cN26oN3khbCN2m4aEE"
           }
         },
         {
