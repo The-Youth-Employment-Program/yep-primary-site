@@ -22,6 +22,14 @@
       "_template": "secondaryNav"
     },
     {
+      "sectionTitle": "",
+      "sectionText": "Sponsor donations provide field equipment to YEP employees in the monetary equivalent of desired sponsorship tier.\n",
+      "text_alignment": "text-center",
+      "bg_color": "bg-salmon-green",
+      "text_color": "text-salmon-light-g2",
+      "_template": "textBox"
+    },
+    {
       "testimonial": [
         {
           "testimonialQuote": "They just gave me $100 worth of gloves. I only have two hands and I don't know what I'm supposed to do with all these gloves now.",
@@ -38,7 +46,7 @@
           "stripeText": "Sponsor $25 worth of supplies to a crewmember.\n",
           "stripeCall": {
             "label": "Sponsor",
-            "link": "https://buy.stripe.com/test_6oE3cB5sp6ite4MdQT"
+            "link": "https://buy.stripe.com/test_dR6cPF4rlauEarK7sw"
           }
         },
         {
@@ -46,7 +54,7 @@
           "stripeText": "Sponsor $50 worth of supplies to a crewmember.\n",
           "stripeCall": {
             "label": "Sponsor",
-            "link": "https://buy.stripe.com/test_5kAcNb0850Y98Ks5kp"
+            "link": "https://buy.stripe.com/test_00g02T4rl46g9nGeV0"
           }
         },
         {
@@ -54,7 +62,7 @@
           "stripeText": "Sponsor $100 worth of supplies to a crewmember.\n",
           "stripeCall": {
             "label": "Sponsor",
-            "link": "https://buy.stripe.com/test_cN26oN3khbCN2m4aEE"
+            "link": "https://buy.stripe.com/test_eVa4j99LF8mwarK5kp"
           }
         }
       ],
