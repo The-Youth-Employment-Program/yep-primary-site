@@ -1,6 +1,8 @@
 import { Layout } from "../../components/Layout";
 import { useTina } from "tinacms/dist/react";
 import { client } from "../../tina/__generated__/client";
+import { YepHead } from "../../components/YepHead";
+import { YepFoot } from "../../components/YepFoot";
 
 export default function Home(props) {
   // data passes though in production mode and data is updated to the sidebar data in edit-mode
@@ -12,6 +14,8 @@ export default function Home(props) {
 
   return (
     <Layout>
+      <YepHead />
+      <main className='mx-0 sm:mx-10 md:mx-20 lg:mx-24 2xl:mx-52'>
       <code>
         <pre
           style={{
@@ -21,6 +25,8 @@ export default function Home(props) {
           {JSON.stringify(data.post, null, 2)}
         </pre>
       </code>
+      </main>
+      <YepFoot />
     </Layout>
   );
 }
