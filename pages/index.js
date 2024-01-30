@@ -14,6 +14,10 @@ import { RightImage } from "../components/page_objects/right-image";
 import { Adornment } from "../components/page_objects/adornment";
 import { Timeline } from "../components/page_objects/timeline";
 import { StripeCards } from "../components/page_objects/stripe-cards";
+import React from "react";
+import { loadStripe } from '@stripe/stripe-js';
+
+const stripePromise = loadStripe(process.env.NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY);
 
 export default function Home(props) {
   // data passes though in production mode and data is updated to the sidebar data in edit-mode

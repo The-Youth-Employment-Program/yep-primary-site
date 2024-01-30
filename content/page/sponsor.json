@@ -43,24 +43,24 @@
           "cardTitle": "$25",
           "stripeText": "Sponsor $25 worth of supplies to a crewmember.\n",
           "stripeCall": {
-            "label": "Donate",
-            "link": ""
+            "label": "Sponsor",
+            "link": "https://buy.stripe.com/test_dR6cPF4rlauEarK7sw"
           }
         },
         {
           "cardTitle": "$50",
           "stripeText": "Sponsor $50 worth of supplies to a crewmember.\n",
           "stripeCall": {
-            "label": "Donate",
-            "link": ""
+            "label": "Sponsor",
+            "link": "https://buy.stripe.com/test_00g02T4rl46g9nGeV0"
           }
         },
         {
           "cardTitle": "$100",
           "stripeText": "Sponsor $100 worth of supplies to a crewmember.\n",
           "stripeCall": {
-            "label": "Donate",
-            "link": ""
+            "label": "Sponsor",
+            "link": "https://buy.stripe.com/test_eVa4j99LF8mwarK5kp"
           }
         }
       ],
