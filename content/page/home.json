@@ -3,19 +3,13 @@
   "section": [
     {
       "heroImage": "/uploads/PXL_20230621_144828605.jpg",
-      "heroText": "Here is some text.\nWe'll have checks for length of statements",
+      "heroText": "Gain Experience and Community Connections\nYouth Employment Program",
       "heroButton": {
-        "label": "button",
-        "link": "/about"
+        "label": "Apply for Work",
+        "link": "https://docs.google.com/forms/d/e/1FAIpQLScX3gdoz8lcEDCcIOtSmFShCJxU1Ns8aiRuV6Uh3DeQr22geA/viewform",
+        "newTab": true
       },
       "_template": "heroBanner"
-    },
-    {
-      "sectionTitle": "Is it fun to work with us? YEP!",
-      "sectionText": "This is an example of some text that doesn't need an image beside it if there are too many image full spaces. It allows the visitor to breathe instead of being cluttered by images **\"left\"** and **\"right\"**\n\n## Here's a secondary header\n\nYou can even break this section down into more complex messages because of the way it stores data in a \"rich-text\" format!\n",
-      "bg_color": "bg-salmon-green",
-      "text_color": "text-salmon-light-g2",
-      "_template": "textBox"
     },
     {
       "actionCard": [
@@ -64,18 +58,18 @@
       ],
       "bg_color": "bg-salmon-tan",
       "text_color": "text-salmon-red",
-      "accent_color": "text-salmon-green",
+      "accent_color": "text-salmon-light-g2",
       "_template": "testimonials"
     },
     {
-      "mainText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et mi sollicitudin, aliquet metus id, ultricies ipsum. Etiam ex ipsum, volutpat sed porta vitae, molestie eget velit. Fusce metus risus, aliquam sit amet risus vel, fermentum placerat quam. Nullam sagittis lacinia lectus, quis posuere velit euismod ut. Suspendisse at nibh laoreet purus varius varius. Donec pulvinar ultrices auctor. Nunc volutpat nibh nec dolor venenatis dignissim. Donec sed diam vitae felis interdum varius. Aliquam mi orci, dapibus vel arcu a, bibendum mattis felis. Sed eros felis, aliquet vel malesuada vel, bibendum eget risus.\n",
+      "mainText": "The Youth employment Program (Y.E.P.) is a non-profit organization that works with individuals to allow them to gain valuable insight into the working environment. The individuals that Y.E.P. hires, leave with a unique skill set that might not otherwise be available to them.\n\nWhile working for Y.E.P., individuals have access to multiple job skill sets. These job skills that Y.E.P. teaches allow for individuals to advance in their professional career journey.",
       "image": "/uploads/PXL_20230718_163722766.jpg",
       "bg_color": "",
       "text_color": "text-salmon-dark-g2",
       "_template": "rightImage"
     },
     {
-      "mainText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et mi sollicitudin, aliquet metus id, ultricies ipsum. Etiam ex ipsum, volutpat sed porta vitae, molestie eget velit. Fusce metus risus, aliquam sit amet risus vel, fermentum placerat quam. Nullam sagittis lacinia lectus, quis posuere velit euismod ut. Suspendisse at nibh laoreet purus varius varius. Donec pulvinar ultrices auctor. Nunc volutpat nibh nec dolor venenatis dignissim. Donec sed diam vitae felis interdum varius. Aliquam mi orci, dapibus vel arcu a, bibendum mattis felis. Sed eros felis, aliquet vel malesuada vel, bibendum eget risus.",
+      "mainText": "Y.E.P. aims to provide job skills and career technical training in various areas to those that want to further their professional career. While working for Y.E.P. individuals are also able to gain core life skills of responsibility, accountability, and leadership.",
       "image": "/uploads/PXL_20230801_212114218.jpg",
       "bg_color": "",
       "text_color": "text-salmon-dark-g2",

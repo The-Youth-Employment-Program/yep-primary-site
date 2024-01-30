@@ -28,29 +28,43 @@
       "timelineDescription": "A brief summary",
       "timelineEvent": [
         {
-          "eventText": "tada",
-          "eventTitle": "New One",
-          "eventDate": "2024-01-04T00:00:00.000Z"
+          "eventText": "First organized in 1994 in cooperation with Lemhi County.  Board members included magistrate judge, local business owners, county clerk and representative of court system.",
+          "eventTitle": "Humble Beginnings",
+          "eventDate": "1994-03-16T00:00:00.000Z"
         },
         {
-          "eventText": "Open Dillon office!",
-          "eventTitle": "Expanding our Communities",
-          "eventDate": "2024-01-10T00:00:00.000Z"
+          "eventText": "Initial projects from 1994-1996 were with the Salmon Regional office of the Idaho BLM.  Work included fencing and range improvement. ",
+          "eventTitle": "First Partnership",
+          "eventDate": "1994-04-06T00:00:00.000Z"
         },
         {
-          "eventText": "We partner with the Southwest Montana Sagebrush Partnership",
-          "eventTitle": "New Partner!",
-          "eventDate": "2024-01-01T00:00:00.000Z"
+          "eventText": "In 1996 work included a wide range of program work for the Salmon/Challis National Forest.",
+          "eventTitle": "Expanding Reach",
+          "eventDate": "1996-05-14T00:00:00.000Z"
         },
         {
-          "eventText": "Trail-work or something",
-          "eventTitle": "Big Project",
-          "eventDate": "2023-12-07T00:00:00.000Z"
+          "eventText": "In 2000 program expanded to the Challis Regional Office of the Idaho BLM with a focus on implementing Travel Management Plan and work to address habitat improvement.",
+          "eventTitle": "Growing Scope",
+          "eventDate": "2000-06-16T00:00:00.000Z"
         },
         {
-          "eventText": "Woooo!!!",
-          "eventTitle": "So it begins",
-          "eventDate": "2023-12-04T00:00:00.000Z"
+          "eventText": "Since 2016 program has had strong involvement with Recreational Trails on both the BLM and USFS.  Initiated a mechanized use program to include dozer and excavator use to improve efficiency of trail dollars as well as provide job skills training in the use of equipment.",
+          "eventTitle": "Larger Toolset and Skills",
+          "eventDate": "2016-07-13T00:00:00.000Z"
+        },
+        {
+          "eventText": "In 2018 started the initial dialogue with The Nature Conservancy to plan and fund a program in Dillon, Montana. Program has grown to include several agency and non-profit organization partners to provide unique career training opportunities to participants.",
+          "eventTitle": "Branching Out",
+          "eventDate": "2018-02-14T00:00:00.000Z"
+        },
+        {
+          "eventText": "New to the program is our partnership with two universities that will provide undergraduate and master programs individuals with opportunities to work in fields of choice that will assist in career growth and college degrees.",
+          "eventTitle": "Higher Education Programs",
+          "eventDate": "2022-09-07T00:00:00.000Z"
+        },
+        {
+          "eventText": "The program continues to work with its numerous partners to create/win projects.",
+          "eventTitle": "Marching On"
         }
       ],
       "accent_color": "before:dark:bg-salmon-red",

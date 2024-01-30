@@ -20,6 +20,12 @@
         }
       ],
       "_template": "secondaryNav"
+    },
+    {
+      "sectionTitle": "Volunteering with the Youth Employment Program",
+      "sectionText": "Through volunteering at YEP, you can be apart of multiple projects, building professional relationships with the various agencies that we work with. \n\nThe best way to volunteer is to reach out to one of our enthusiastic staff members so we can pick out a project that fits what you're looking to help with!\n",
+      "bg_img": "/uploads/PXL_20230620_221956250.jpg",
+      "_template": "textBox"
     }
   ]
 }

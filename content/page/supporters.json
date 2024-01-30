@@ -20,6 +20,44 @@
         }
       ],
       "_template": "secondaryNav"
+    },
+    {
+      "sectionTitle": "Proud Supporters of the Youth Employment Program",
+      "sectionText": "This page is devoted to those who uphold YEP's mission of fostering and empowering our next generations. These outstanding organizations and individuals are at the heart of YEP and our crew! YEP cannot exist the way we do without the support of our generous donators and patrons.\n",
+      "bg_img": "/uploads/PXL_20230715_164541717.jpg",
+      "_template": "textBox"
+    },
+    {
+      "actionCard": [
+        {
+          "actionIcon": "/uploads/PXL_20230803_172340970.jpg",
+          "cardTitle": "Steele Reese",
+          "actionText": "Need more information\n",
+          "actionCall": {
+            "label": "More",
+            "link": "/team/partners"
+          }
+        },
+        {
+          "actionIcon": "/uploads/PXL_20230726_213413687.jpg",
+          "cardTitle": "United Way",
+          "actionText": "United Way has been one of our most active supporters. Whether it be donating work shirts, notebooks, or even pens, we are grateful to have found a partner as supportive of community youth as we are!\n",
+          "actionCall": {
+            "label": "More",
+            "link": "/team/partners"
+          }
+        },
+        {
+          "actionIcon": "/uploads/PXL_20230621_144927443.jpg",
+          "cardTitle": "M.J. Murdock",
+          "actionText": "Need more information\n",
+          "actionCall": {
+            "label": "More",
+            "link": "/team/partners"
+          }
+        }
+      ],
+      "_template": "actionCards"
     }
   ]
 }

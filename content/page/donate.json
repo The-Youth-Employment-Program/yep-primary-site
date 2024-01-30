@@ -22,6 +22,12 @@
       "_template": "secondaryNav"
     },
     {
+      "sectionTitle": "Donations to The Youth Employment Program",
+      "sectionText": "# Charitable Contributions\n\n##### Here at the Youth Employment Program we take pride in the fact that we can provide practical and valuable skill sets to individuals. We are always looking for chances to be able to broaden the skill sets that we can offer. It is important that individuals such as the local youth that we work with, are able to be exposed to various career paths and have as much opportunity as they can to be able to exceed in their professional career journey.\n\n##### It is the support of the community that allows us to expand on the opportunities that we are able to provide to others.&#xA;&#xA;If you'd like to write YEP a check, we will send a donation receipt. You can specify how your funds may be spent via the memo line, be sure to include a specific use, project, or list as 'general use'\n",
+      "bg_img": "/uploads/PXL_20230621_144927443.jpg",
+      "_template": "textBox"
+    },
+    {
       "testimonial": [
         {
           "testimonialQuote": "The money donated to this 501(c) non-profit definitely didn't go into lobbying campaigns. Helped me avoid paying my rightful taxes by 'lowering' my income though.",
@@ -71,9 +77,21 @@
       "_template": "stripeCards"
     },
     {
-      "sectionTitle": "Legal",
-      "sectionText": "I have no idea if theses count as tax deductible, but if they are the info will go here along with any other additional info/legalese.\n",
-      "text_alignment": "text-right",
+      "feature": [
+        {
+          "featureName": "Support Youth Directly",
+          "featureImage": "/uploads/PXL_20230715_164543516.jpg",
+          "featureText": "Looking to make a more direct impact on the local working youth? Consider making a sponsor donation. Funds allocated here go toward the items our hard working crews and individuals need on a daily basis!",
+          "featureLink": "/sponsor",
+          "featureSubtext": "Same tax deductable donation, more specific use"
+        }
+      ],
+      "_template": "features"
+    },
+    {
+      "sectionTitle": "Looking for another way to help?",
+      "sectionText": "# Questions, concerns, or just want to chat?\n\nReach out to one of our branch representatives to get in touch for more information!\n\nSalmon, ID\\\n208.756.8600\n------------\n\nDillon, MT\\\n406.925.3643\n------------\n",
+      "text_alignment": "text-center",
       "bg_color": "bg-salmon-tan",
       "text_color": "text-salmon-dark-g1",
       "_template": "textBox"
