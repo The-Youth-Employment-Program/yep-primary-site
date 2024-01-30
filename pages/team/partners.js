@@ -3,6 +3,8 @@ import { useCallback, useState } from 'react'
 import { tinaField, useTina } from "tinacms/dist/react";
 import { client } from "../../tina/__generated__/client";
 import { Partner } from "../../components/team_objects/partner";
+import { YepHead } from "../../components/YepHead";
+import { YepFoot } from "../../components/YepFoot";
 
 export default function Team(props) {
     const { data } = useTina({
@@ -16,6 +18,8 @@ export default function Team(props) {
 
     return (
         <Layout>
+          <YepHead />
+          <main className='mx-0 sm:mx-10 md:mx-20 lg:mx-24 2xl:mx-52'>
           <section>
           <div className="mb-6 py-10 sm:py-20 lg:py-40 w-full px-5 sm:px-10 md:px-20">
                 <div className="mb-4 text-3xl font-semibold">YEP's Partners</div>
@@ -48,6 +52,8 @@ export default function Team(props) {
             </div>
             
           </section>
+          </main>
+          <YepFoot />
             {/* <pre>{ JSON.stringify(props, null, 2) }</pre> */}
         </Layout>
     )

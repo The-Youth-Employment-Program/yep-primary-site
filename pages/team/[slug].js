@@ -5,6 +5,8 @@ import Head from "next/head";
 import { Layout } from "../../components/Layout";
 import { tinaField, useTina } from "tinacms/dist/react";
 import { client } from "../../tina/__generated__/client";
+import { YepHead } from '../../components/YepHead';
+import { YepFoot } from '../../components/YepFoot';
 
 
 export default function Home(props) {
@@ -19,6 +21,8 @@ export default function Home(props) {
 
   return (
     <Layout>
+      <YepHead />
+      <main className='mx-0 sm:mx-10 md:mx-20 lg:mx-24 2xl:mx-52'>
       <Head>
         <title>{data.team.name}</title>
       </Head>
@@ -31,6 +35,8 @@ export default function Home(props) {
               <span className="block pb-2 text-sm text-salmon-green">{ data.team.position }{ data.team.qualifier }{ data.team.partnerType }</span>
           </div>
       </div>
+      </main>
+      <YepFoot />
       <pre>{ JSON.stringify(props, null, 2) }</pre>
     </Layout>
   );

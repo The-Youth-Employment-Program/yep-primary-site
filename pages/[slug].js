@@ -1,8 +1,11 @@
 import { TinaMarkdown } from "tinacms/dist/rich-text";
 import Head from "next/head";
 import { Layout } from "../components/Layout";
+import { YepFoot } from "../components/YepFoot";
+import { YepHead } from "../components/YepHead";
 import { tinaField, useTina } from "tinacms/dist/react";
 import { client } from "../tina/__generated__/client";
+
 import { HeroBanner } from "../components/page_objects/hero-banner";
 import { Feature } from "../components/page_objects/feature";
 import { ActionCards } from "../components/page_objects/action-cards"
@@ -16,6 +19,7 @@ import { Adornment } from "../components/page_objects/adornment";
 import { Timeline } from "../components/page_objects/timeline";
 import { StripeCards } from "../components/page_objects/stripe-cards";
 
+
 export default function Home(props) {
   // data passes though in production mode and data is updated to the sidebar data in edit-mode
   const { data } = useTina({
@@ -26,6 +30,8 @@ export default function Home(props) {
 
   return (
     <Layout>
+      <YepHead />
+      <main className='mx-0 sm:mx-10 md:mx-20 lg:mx-24 2xl:mx-52'>
       <Head>
         <title>{ data.page.pageTitle }</title>
       </Head>
@@ -69,6 +75,8 @@ export default function Home(props) {
             }
           }
         })}
+        </main>
+        <YepFoot />
     </Layout>
   );
 }

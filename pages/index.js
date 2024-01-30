@@ -1,5 +1,9 @@
 import Head from "next/head";
+
+import { YepHead } from '../components/YepHead'
+import { YepFoot } from '../components/YepFoot'
 import { Layout } from "../components/Layout";
+
 import { useTina } from "tinacms/dist/react";
 import { client } from "../tina/__generated__/client";
 import { HeroBanner } from "../components/page_objects/hero-banner";
@@ -31,6 +35,8 @@ export default function Home(props) {
 
   return (
     <Layout>
+      <YepHead />
+      <main className='mx-0 sm:mx-10 md:mx-20 lg:mx-24 2xl:mx-52'>
         <Head>
            <title>{ data?.page?.pageTitle }</title>
         </Head>
@@ -95,7 +101,7 @@ export default function Home(props) {
             }
           }
         })}
-
+        </main>
         {/* {branchList.map((branch) => (
           <div key={branch.node.id}>
             <Link href={`/contacts/${branch.node._sys.filename}`}>
@@ -105,6 +111,7 @@ export default function Home(props) {
         ))} */}
 
         {/* <pre>{ JSON.stringify(data, null, 2) }</pre> */}
+        <YepFoot />
     </Layout>
   );
 }
