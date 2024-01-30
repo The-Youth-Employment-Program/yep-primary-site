@@ -14,16 +14,16 @@ module.exports = {
     },
     extend: {
       colors: {
-        'salmon-tan': '#e2b16e',
-        'salmon-green': '#436823',
-        'salmon-red': '#6b2d39',
+        'salmon-tan': '#ff8b00', //'#e2b16e',
+        'salmon-green': '#00b7a6', //'#436823',
+        'salmon-red': '#5b190d', //'#6b2d39',
         'salmon-light-g1': '#89909f',
         'salmon-light-g2' : '#dee9f7',
         'salmon-dark-g1': '#483c46',
         'salmon-dark-g2': '#455561',
-        'dillon-orange': '#f68b20',
-        'dillon-blue': '#09b8a7',
-        'dillon-red': '#5a190f',
+        'dillon-orange': '#e2b16e',
+        'dillon-blue': '#436823',
+        'dillon-red': '#6b2d39',
       }
     }
   },
