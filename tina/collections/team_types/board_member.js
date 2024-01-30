@@ -24,8 +24,15 @@ export default {
         // },
         {
             name:"blurb",
-            label:"Board Member Bio",
+            label:"Board Member Blurb",
             description:"A short biography, describing the board member",
+            type:"string",
+            ui:{ component:"textarea" },
+        },
+        {
+            name:"bio",
+            label:"Board Member Full Bio",
+            description:"Optional full biography, describing the board member",
             type:"string",
             ui:{ component:"textarea" },
         },
