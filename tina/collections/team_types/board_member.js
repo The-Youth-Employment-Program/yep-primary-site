@@ -16,17 +16,18 @@ export default {
             label:"Member Photo",
             type:"image",
         },
-        {
-            name:"qualifier",
-            label:"Board Qualifier",
-            description:"Member's organization or position",
-            type:"string",
-        },
+        // {
+        //     name:"qualifier",
+        //     label:"Board Qualifier",
+        //     description:"Member's organization or position",
+        //     type:"string",
+        // },
         {
             name:"blurb",
             label:"Board Member Bio",
             description:"A short biography, describing the board member",
             type:"string",
+            ui:{ component:"textarea" },
         },
     ]
 }
