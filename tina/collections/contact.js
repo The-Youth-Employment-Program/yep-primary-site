@@ -5,6 +5,7 @@ export default {
     label: "Branch Information",
     name:"branchContact",
     path:"content/contact",
+    global:true,
     format: "json",
     fields: [
         {
