@@ -5,7 +5,7 @@ import React from "react";
 export function Timeline(props: PageSectionTimeline) {
   //for each testimonial in ?props? add div to {testimonial}(like secondaryNav) which is html object for section and container divs...
   //should each contain data-tina-field={tinaField(props, "testimonial")}
-  let eventstyle = `flex flex-col sm:relative sm:before:absolute sm:before:bottom-0 sm:before:w-4 sm:before:h-4 sm:before:rounded-full sm:before:left-[-35px] sm:before:z-[1] ${props.accent_color}`
+  let eventstyle = `flex flex-col sm:relative sm:before:absolute sm:before:top-0 sm:before:w-4 sm:before:h-4 sm:before:rounded-full sm:before:left-[-35px] sm:before:z-[1] ${props.accent_color}`
   let sidebarstyle = `text-center sm:text-left mb-14 before:block before:w-24 before:h-3 before:mb-5 before:rounded-md before:mx-auto sm:before:mx-0 ${props?.accent_color}`
     return(
       <>

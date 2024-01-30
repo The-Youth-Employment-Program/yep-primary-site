@@ -5,8 +5,8 @@ import React from "react";
 
 export function TextBox(props: PageSectionTextBox) {
 
-    let mainstyle = `${props.bg_color} py-10 sm:py-20 lg:py-40 ${props.text_color} w-full px-5 sm:px-10 md:px-20`
-    let textalign = `${props.text_alignment} ml-2`
+    let mainstyle = `${props.bg_color} py-10 sm:py-20 lg:py-40 ${props.text_color} w-full px-5 sm:px-10 md:px-20 rounded-lg`
+    let textalign = `${props.text_alignment} ml-2 mt-4`
 
     return(
         <>
@@ -18,7 +18,7 @@ export function TextBox(props: PageSectionTextBox) {
                         <TinaMarkdown content={props.sectionText} components={{
                                 h1: props => <h1 className="mt-4 text-2xl font-semibold" {...props} />,
                                 h2: props => <h2 className="mt-3 text-xl font-medium" {...props} />,
-                                p: props => <p className="" {...props} />,
+                                p: props => <p className="pt-6" {...props} />,
                             }}
                         />
                     </div>
@@ -33,7 +33,7 @@ export function TextBox(props: PageSectionTextBox) {
                         <TinaMarkdown content={props.sectionText} components={{
                                 h1: props => <h1 className="mt-4 text-2xl font-semibold" {...props} />,
                                 h2: props => <h2 className="mt-3 text-xl font-medium" {...props} />,
-                                p: props => <p className="" {...props} />,
+                                p: props => <p className="pt-6" {...props} />,
                             }}
                         />
                     </div>
