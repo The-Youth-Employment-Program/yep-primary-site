@@ -1,5 +1,7 @@
 {
+  "published": true,
   "title": "Welcome Salmon ID",
+  "image": "/uploads/PXL_20230621_170930297.jpg",
   "body": "Welcoming all the great people of the Salmon Challis area to the new Youth Employment Program website, we're excited to further develop our local communities!\n",
   "branch": "content/contact/Salmon.json",
   "_template": "post"

@@ -22,11 +22,11 @@ export const YepFoot = () => {
             <div className="flex items-center justify-center w-20 h-20 rounded-full dark:bg-salmon-red">
               <img src="/logo.svg" alt="Home" className="flex-shrink-0 w-20 h-20 cursor-pointer"/>
             </div>
-            <span className="self-center text-2xl font-semibold">The Youth Employment Program</span>
+            <span className="self-center text-2xl font-bold">The Youth Employment Program</span>
           </a>
         </div>
         <div className="col-span-6 text-center md:text-left md:col-span-3">
-          <p className="pb-1 text-lg font-medium">Take Action</p>
+          <p className="pb-1 text-lg font-semibold">Take Action</p>
           <ul>
             <li>
               <a rel="noopener noreferrer" href="/work" className="hover:text-salmon-green">Work</a>
@@ -46,7 +46,7 @@ export const YepFoot = () => {
           </ul>
         </div>
         <div className="col-span-6 text-center md:text-left md:col-span-3">
-          <p className="pb-1 text-lg font-medium">Learn</p>
+          <p className="pb-1 text-lg font-semibold">Learn</p>
           <ul>
             <li>
               <a rel="noopener noreferrer" href="/articles/newsletters" className="hover:text-salmon-green">Newsletter</a>

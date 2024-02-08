@@ -1,7 +1,9 @@
 import { Layout } from "../../components/Layout";
-import { useCallback, useState } from 'react'
+import Link from "next/link";
 import { tinaField, useTina } from "tinacms/dist/react";
 import { client } from "../../tina/__generated__/client";
+import { Employee } from "../../components/team_objects/employee";
+import { Board } from "../../components/team_objects/board";
 import { YepFoot } from "../../components/YepFoot";
 import { YepHead } from "../../components/YepHead";
 
@@ -12,8 +14,7 @@ export default function Team(props) {
         data: props.data,
     });
 
-    const [isOpen, toggleIsOpen] = useToggle();
-    const teamList = data.teamConnection.edges;
+//    const teamList = data.teamConnection.edges;
 
     return (
         <Layout>
@@ -26,33 +27,49 @@ export default function Team(props) {
                   <p className="">YEP is overflowing with great personalities and talent actively engaged in supporting the leadership of tomorrow's communities. We shine by polishing our workforce and ourselves through fun and hard work in the outdoors. We are compelled to forge lasting relationships and memories through work driven experiences and Technical Career Training</p>
                 </div>
             </div>
-            <div className="grid justify-items-center grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 3xl:grid-cols-4"> {/* xl:grid-flow-col / grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 */}
-              { teamList.map((team) => (
-                  <div key={team.node.id} className="flex flex-col max-w-md p-6 shadow-lg rounded-lg text-salmon-red">
-                      {/* on click img is replaced by p tag */}
-                      { isOpen && <img onClick={toggleIsOpen} src={team.node.image} alt="" className="flex-shrink-0 object-cover h-64 rounded-lg sm:h-96 dark:bg-gray-500 aspect-square cursor-pointer" />}
-                      { !isOpen && <p onClick={toggleIsOpen} className="flex-shrink-0 h-64 rounded-lg sm:h-96 cursor-pointer aspect-square">{team.node.blurb}</p>}
-                      <div>
-                          <h2 className="text-xl font-semibold">{team.node.name}</h2>
-                          <span className="block pb-2 text-sm text-salmon-green">{ team.node.position }{ team.node.qualifier }{ team.node.partnerType }</span>
-                      </div>
-                  </div>
-              ))}
+
+            <div className="mb-4 tracking-wide text-xl font-semibold">YEP Staff:</div>
+            <div className="grid justify-items-center grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 3xl:grid-cols-4 mb-4"> {/* xl:grid-flow-col / grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 */}
+              {data.teamConnection.edges.map((part, i) =>{
+                  switch (part?.node.__typename) {
+                      case "TeamEmployee" : {
+                        return <Employee key={i} {...part.node} />
+                      }
+                  }
+              })}
             </div>
+            <Link href="team/employees">
+              <a className="flex uppercase font-medium text-md text-salmon-red hover:text-salmon-tan mb-14">Full Staff
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="ml-2 w-5 h-5">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                </svg>
+              </a>
+            </Link>
+
+            <div className="mb-4 tracking-wide text-xl font-semibold">YEP Board:</div>
+            <div className="grid justify-items-center grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 3xl:grid-cols-4 mb-4"> {/* xl:grid-flow-col / grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 */}
+              {data.teamConnection.edges.map((part, i) =>{
+                  switch (part?.node.__typename) {
+                      case "TeamBoard" : {
+                        return <Board key={i} {...part.node} />
+                      }
+                  }
+              })}
+            </div>
+            <Link href="team/board">
+              <a className="flex uppercase font-medium text-md text-salmon-red hover:text-salmon-tan mb-14">Full Board 
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="ml-2 w-5 h-5">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                </svg>
+              </a>
+            </Link>
+
           </section>
           </main>
           <YepFoot />
-            <pre>{ JSON.stringify(props, null, 2) }</pre>
+            {/* <pre>{ JSON.stringify(props, null, 2) }</pre> */}
         </Layout>
     )
-}
-
-export function useToggle(initialValue = true) {
-  const [value,setValue] = useState(initialValue);
-  const toggle = useCallback(() => {
-    setValue(v => !v);
-  }, []);
-  return [value,toggle];
 }
 
 export const getStaticProps = async() => {

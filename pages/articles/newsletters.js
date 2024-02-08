@@ -1,9 +1,7 @@
 import { Layout } from "../../components/Layout";
 import Link from "next/link";
-import { useCallback, useState } from 'react'
 import { tinaField, useTina } from "tinacms/dist/react";
 import { client } from "../../tina/__generated__/client";
-import { Board } from "../../components/team_objects/board";
 import { YepHead } from "../../components/YepHead";
 import { YepFoot } from "../../components/YepFoot";
 
@@ -27,11 +25,12 @@ export default function Newsletters(props) {
         </div>
         
 {newsletterList?.map((newsletter) =>{
+    let datetest = new Date(newsletter.node.date).toDateString()
           switch (newsletter?.node?.__typename) {
             case "ArticleNewsletter" : {
               return (
                 <div className="py-6 shadow-lg rounded-lg" key={newsletter.node.id}>
-                  <div className="inline uppercase tracking-wide font-semibold border-2 text-salmon-tan border-salmon-tan p-2">{newsletter.node.date}</div>
+                  <div className="inline uppercase tracking-wide font-semibold border-2 text-salmon-tan border-salmon-tan p-2">{datetest}</div>
                   <Link href={`/articles/${newsletter.node._sys.filename}`}>
                     <a>{newsletter.node._sys.filename}</a>
                   </Link>
@@ -41,11 +40,10 @@ export default function Newsletters(props) {
           }
         })}
 
-<pre>{ JSON.stringify(newsletterList, null, 2) }</pre>
-
       </div>
       </main>
       <YepFoot />
+      <pre>{ JSON.stringify(newsletterList, null, 2) }</pre>
     </Layout>
     )
 }

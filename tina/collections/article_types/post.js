@@ -16,6 +16,11 @@ export default {
           required:true,
         },
         {
+          type: "image",
+          name: "image",
+          label: "Featured Image",
+        },
+        {
           type: "rich-text",
           label: "Post Body",
           name: "body",

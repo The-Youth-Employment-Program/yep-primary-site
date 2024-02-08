@@ -31,6 +31,7 @@ export default function Contact(props) {
               />}
               <div className="pt-6">
                 <p className="">{contact?.address?.streetAddress}</p>
+                <p className="">{contact?.address?.secondaryAddress}</p>
                 <p className="pt-2">{contact?.address?.city}, {contact?.address?.state}</p>
                 <p className="pt-2">{contact?.address?.zipCode}</p>
                 <p className="pt-2">Office: <a href={phonelink}>{contact?.branchPhone}</a></p>

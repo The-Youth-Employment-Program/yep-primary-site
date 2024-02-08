@@ -15,6 +15,15 @@
       "actionCard": [
         {
           "actionIcon": "",
+          "cardTitle": "Have a Project?",
+          "actionText": "Join YEP in providing engaging and meaningful projects to help our youth and community\n",
+          "actionCall": {
+            "label": "Provide",
+            "link": "/join"
+          }
+        },
+        {
+          "actionIcon": "",
           "cardTitle": "Want to work outside?",
           "actionText": "Work in the outdoors with industry professionals and gain practical experience in numerous fields!\n",
           "actionCall": {
@@ -29,15 +38,6 @@
           "actionCall": {
             "label": "Give",
             "link": "/support"
-          }
-        },
-        {
-          "actionIcon": "",
-          "cardTitle": "Have a Project?",
-          "actionText": "Join YEP in providing engaging and meaningful projects to help our youth and community\n",
-          "actionCall": {
-            "label": "Provide",
-            "link": "/join"
           }
         }
       ],
@@ -56,7 +56,7 @@
           "testimonialRole": "Forest Service Botanist"
         }
       ],
-      "bg_color": "bg-salmon-tan",
+      "bg_color": "bg-salmon-green",
       "text_color": "text-salmon-red",
       "accent_color": "text-salmon-light-g2",
       "_template": "testimonials"
@@ -78,9 +78,18 @@
     {
       "actionCard": [
         {
+          "actionIcon": "/uploads/PXL_20230720_172747770.jpg",
+          "cardTitle": "Become a Partner",
+          "actionText": "\"I want YEP to work on my projects!\"\n",
+          "actionCall": {
+            "label": "Become a Partner",
+            "link": "/join"
+          }
+        },
+        {
           "actionIcon": "/uploads/PXL_20230801_212114218.jpg",
           "cardTitle": "Work in the Rocky Mountains",
-          "actionText": "\"I want to build myself and make money\"\n\nor\n\n\"I want to get paid in the Rocky Mountains\n",
+          "actionText": "\"I want to gain work experience in the Rocky Mountains\"\n",
           "actionCall": {
             "label": "Work with YEP",
             "link": "/work"
@@ -93,15 +102,6 @@
           "actionCall": {
             "label": "Volunteer/Give",
             "link": "/support"
-          }
-        },
-        {
-          "actionIcon": "/uploads/PXL_20230720_172747770.jpg",
-          "cardTitle": "Become a Partner",
-          "actionText": "\"I want YEP to work on my projects!\"\n",
-          "actionCall": {
-            "label": "Become a Partner",
-            "link": "/join"
           }
         }
       ],

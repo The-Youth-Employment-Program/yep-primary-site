@@ -26,15 +26,15 @@
       "_template": "heroBanner"
     },
     {
-      "mainText": "Partner with Youth Employment Program to get your projects done, help provide experience and work for local youth, and better our communities and ecosystems.",
-      "image": "/uploads/PXL_20230720_172747770.jpg",
-      "title": "Work with us",
-      "pageLink": {
-        "label": "Apply for Partnership",
-        "link": "https://docs.google.com/document/d/1fyULlsz5FHWmR-rvDC4nwC5yuhdPEDa0kuy1Zs2PWac/edit",
-        "newTab": true
-      },
-      "_template": "leftImage"
+      "sectionTitle": "YEP is a relationship organization. ",
+      "sectionText": "We aim to support our partners solving problems such as employee, education, recruitment, and working as a partner to help solve the issues with the lack of housing.\n",
+      "bg_img": "/uploads/PXL_20230720_172747770.jpg",
+      "_template": "textBox"
+    },
+    {
+      "sectionTitle": "Successful Project Completion",
+      "sectionText": "Our partners use us because we are a “get it done” organization.  We spend extra time and money teaching our employees the techniques needed to accomplish each specific  task. \n\nOur staff is on the ground to make sure projects run smoothly.\n\nProjects accomplished:\n\n* Process based stream restoration\n* Zuni Work, (Zeedyk, One Rock Damn)\n* Weed mapping and treatment\n* Trail installation or maintenance\n* Campground maintenance\n* Fencing \n* Pollinator and Botany studies\n* Other projects\n\nWe purchase and maintain equipment to get these projects accomplished.\n",
+      "_template": "textBox"
     },
     {
       "feature": [
@@ -47,6 +47,17 @@
         }
       ],
       "_template": "features"
+    },
+    {
+      "mainText": "Partner with Youth Employment Program to get your projects done, help provide experience and work for local youth, and better our communities and ecosystems.",
+      "image": "/uploads/PXL_20230720_172747770.jpg",
+      "title": "Work with us",
+      "pageLink": {
+        "label": "Apply for Partnership",
+        "link": "https://docs.google.com/document/d/1fyULlsz5FHWmR-rvDC4nwC5yuhdPEDa0kuy1Zs2PWac/edit",
+        "newTab": true
+      },
+      "_template": "leftImage"
     }
   ]
 }

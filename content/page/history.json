@@ -7,13 +7,19 @@
           "childPages": "content/page/history.json"
         },
         {
-          "childPages": "content/page/partners-old.json"
+          "altPage": {
+            "label": "Partners",
+            "link": "/team/partners"
+          }
         },
         {
           "childPages": "content/page/mission.json"
         },
         {
-          "childPages": "content/page/our-team.json"
+          "altPage": {
+            "label": "Our Team",
+            "link": "/team"
+          }
         }
       ],
       "_template": "secondaryNav"

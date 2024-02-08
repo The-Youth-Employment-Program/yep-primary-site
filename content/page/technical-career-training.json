@@ -20,6 +20,25 @@
         }
       ],
       "_template": "secondaryNav"
+    },
+    {
+      "sectionTitle": "Technical Career Training",
+      "sectionText": "The Youth Employment Program offers different programs for local youth to further their professional careers, chances at getting employed, and overall knowledge of various skills. \n",
+      "bg_img": "/uploads/PXL_20230621_234052459.jpg",
+      "_template": "textBox"
+    },
+    {
+      "feature": [
+        {
+          "featureName": "Recreation & Resource Management",
+          "featureText": "Y.E.P. works with partners such as U.S. Forest Service, the Bureau of Land Management, Wildlife fish and Game, and more to be able to provide a skill set to individuals. While doing this, the individuals that work for Y.E.P. are able to learn about both conservation and recreational related topics. "
+        },
+        {
+          "featureName": "Welding",
+          "featureText": "Using donated and purchased equipment Y.E.P. is able to expose individuals to a career as a welder. Y.E.P. teaches the basics of welding in a hands-on learning environment, which allows for a memorable and valuable experience."
+        }
+      ],
+      "_template": "features"
     }
   ]
 }

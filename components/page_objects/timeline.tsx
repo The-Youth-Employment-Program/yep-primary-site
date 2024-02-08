@@ -22,10 +22,12 @@ export function Timeline(props: PageSectionTimeline) {
               <div className="col-span-12 space-y-12 relative px-4 sm:col-span-8 sm:space-y-8 sm:before:absolute sm:before:top-2 sm:before:bottom-0 sm:before:w-0.5 sm:before:-left-3 before:dark:bg-salmon-tan">
                 
                 {props.timelineEvent?.map((event,i) =>{
+                  let date = ""
+                  if(event?.eventDate) { date = new Date(event?.eventDate).toDateString()}
                   return(
                     <div className={eventstyle}>
                       <h3 className="text-xl font-semibold tracki">{event?.eventTitle}</h3>
-                      <time className="text-xs tracki uppercase dark:text-gray-400">{event?.eventDate}</time>
+                      <time className="text-xs tracki uppercase dark:text-gray-400">{date}</time>
                       <p className="mt-3">{event?.eventText}</p>
                     </div>
                   )

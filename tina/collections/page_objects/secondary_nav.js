@@ -20,7 +20,36 @@ export default {
                         type:"reference",
                         collections:["page"]
                         //option select with available pages set as { page_name, page_path }
-                    }
+                    },
+                    {
+                        label:"Alternate Page",
+                        name:"altPage",
+                        description:"Override link with alternate page",
+                        type:"object",
+                        ui:{
+                            itemProps (item) {
+                                return { label: item?.label || "Button" }
+                            }
+                        },
+                        fields:[
+                            {
+                                label:"Link Title",
+                                name:"label",
+                                type:"string"
+                            },
+                            {
+                                label:"Link Page",
+                                name:"link",
+                                type:"string"
+                            },
+                            // {
+                            //     label:"Open in New Tab",
+                            //     name:"newTab",
+                            //     description:"Recommended for external links.",
+                            //     type:"boolean"
+                            // }
+                        ]
+                    },
                 ]
             }
         ]
