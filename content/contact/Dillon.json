@@ -1,12 +1,14 @@
 {
   "branch": "Dillon",
+  "blurb": "YEP's Dillon branch is heavily involved with our  partners in the Southwest Montana area, with a heavy focus on education.\n",
   "contact": {
     "address": {
-      "street_address": "730 N. Montana St",
+      "streetAddress": "730 N. Montana St",
       "city": "Dillon",
       "state": "MT",
-      "zip_code": "59720"
+      "zipCode": "59720"
     },
-    "branch_phone": "(406) 865-4400"
+    "branchPhone": "(406) 865-4400",
+    "primaryContact": "content/team/Dylan-Zitzer.json"
   }
 }

@@ -1,0 +1,6 @@
+{
+  "donationTitle": "$100 Donation",
+  "amount": "$100.00",
+  "stripeLink": "https://buy.stripe.com/test_6oEbJ7f2Z7mx5yg3ce",
+  "_template": "donation"
+}

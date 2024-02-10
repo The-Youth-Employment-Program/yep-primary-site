@@ -1,26 +1,117 @@
 {
-  "title": "Home Test Block",
-  "rows": [
+  "pageTitle": "Home",
+  "section": [
     {
-      "block": "# Three line(max) hero banner\n"
+      "heroImage": "/uploads/PXL_20230621_144828605.jpg",
+      "heroText": "Gain Experience and Community Connections\nYouth Employment Program",
+      "heroButton": {
+        "label": "Apply for Work",
+        "link": "https://docs.google.com/forms/d/e/1FAIpQLScX3gdoz8lcEDCcIOtSmFShCJxU1Ns8aiRuV6Uh3DeQr22geA/viewform",
+        "newTab": true
+      },
+      "_template": "heroBanner"
     },
     {
-      "block": "> \\[Authority of proof] inline partner logos\n"
+      "actionCard": [
+        {
+          "actionIcon": "",
+          "cardTitle": "Have a Project?",
+          "actionText": "Join YEP in providing engaging and meaningful projects to help our youth and community\n",
+          "actionCall": {
+            "label": "Provide",
+            "link": "/join"
+          }
+        },
+        {
+          "actionIcon": "",
+          "cardTitle": "Want to work outside?",
+          "actionText": "Work in the outdoors with industry professionals and gain practical experience in numerous fields!\n",
+          "actionCall": {
+            "label": "Join",
+            "link": "/work"
+          }
+        },
+        {
+          "actionIcon": "",
+          "cardTitle": "Feeling Charitable?",
+          "actionText": "Support our local communities by donating your time or resources\n",
+          "actionCall": {
+            "label": "Give",
+            "link": "/support"
+          }
+        }
+      ],
+      "_template": "actionCards"
     },
     {
-      "block": "# Call to Action(pathway cards for)\n\n### Have a Project?\n\nJoin YEP in providing engaging and meaningful projects to help our youth and community\n\n#### \\[provide] \\<-- link\n\n### Feeling Charitable?\n\nSupport our local communities by donating your time or resources.\n\n#### \\[give]\\<-- link\n\n### Get Paid Outside?\n\n\\[Get paid/work] in the outdoors with industry professionals and gain practical experience in multiple fields\n\n#### \\[join]\\<-- link\n"
+      "testimonial": [
+        {
+          "testimonialQuote": "What is Happening here",
+          "testimonialAttribution": "Broke",
+          "testimonialRole": "Dude"
+        },
+        {
+          "testimonialQuote": "We hired a seasonal crew through the Youth Employment Program. They were a great help to each and every project we sent them on throughout the course of the summer(not real quote)",
+          "testimonialAttribution": "Madi Crawford",
+          "testimonialRole": "Forest Service Botanist"
+        }
+      ],
+      "bg_color": "bg-salmon-green",
+      "text_color": "text-salmon-red",
+      "accent_color": "text-salmon-light-g2",
+      "_template": "testimonials"
     },
     {
-      "block": "# Testimonials\n\n> Volunteer lorem ipsum\\\n> \\- volunteer testimonial\n\n> partner lorem ipsum\\\n> -partner testimonial\n\n> Employee lorem ipsum\\\n> -employee testimonial\n"
+      "mainText": "The Youth employment Program (Y.E.P.) is a non-profit organization that works with individuals to allow them to gain valuable insight into the working environment. The individuals that Y.E.P. hires, leave with a unique skill set that might not otherwise be available to them.\n\nWhile working for Y.E.P., individuals have access to multiple job skill sets. These job skills that Y.E.P. teaches allow for individuals to advance in their professional career journey.",
+      "image": "/uploads/PXL_20230718_163722766.jpg",
+      "bg_color": "",
+      "text_color": "text-salmon-dark-g2",
+      "_template": "rightImage"
     },
     {
-      "block": "# Articles\n\n1. Article 1\n2. Article 2\n3. Article 3\n4. Article 4?\n5. Article 5?\n6. Article 6?\n\nEmployee or volunteer written or newsletter article 'clip'/post/blog entry\n"
+      "mainText": "Y.E.P. aims to provide job skills and career technical training in various areas to those that want to further their professional career. While working for Y.E.P. individuals are also able to gain core life skills of responsibility, accountability, and leadership.",
+      "image": "/uploads/PXL_20230801_212114218.jpg",
+      "bg_color": "",
+      "text_color": "text-salmon-dark-g2",
+      "_template": "leftImage"
     },
     {
-      "block": "# Final Call to Action(pathway Cards for)\n\n### \"I want YEP to work on my project!\"\n\n#### \\[Become Partner]\n\n### \"I want to help our youth or have some free time for my community\"\n\n#### \\[Volunteer/Give]\n\n### \"I want to get paid in the Rocky Mountains\" or \"I want to build myself and make money\"\n\n#### \\[Work at YEP]\n"
+      "actionCard": [
+        {
+          "actionIcon": "/uploads/PXL_20230720_172747770.jpg",
+          "cardTitle": "Become a Partner",
+          "actionText": "\"I want YEP to work on my projects!\"\n",
+          "actionCall": {
+            "label": "Become a Partner",
+            "link": "/join"
+          }
+        },
+        {
+          "actionIcon": "/uploads/PXL_20230801_212114218.jpg",
+          "cardTitle": "Work in the Rocky Mountains",
+          "actionText": "\"I want to gain work experience in the Rocky Mountains\"\n",
+          "actionCall": {
+            "label": "Work with YEP",
+            "link": "/work"
+          }
+        },
+        {
+          "actionIcon": "/uploads/PXL_20230715_164556834.jpg",
+          "cardTitle": "Volunteer or Give",
+          "actionText": "\"I want to help our youth, and I have some free resources!\"\n",
+          "actionCall": {
+            "label": "Volunteer/Give",
+            "link": "/support"
+          }
+        }
+      ],
+      "_template": "actionCards"
     },
     {
-      "block": "### Sign up for Updates!\n\n\\<input type=\"mail\">example\\@mail.com\\</input>\n"
+      "contactStatement": "Sign up for our newsletter and learn about YEP and our projects!",
+      "contactActionCall": "Stick with us!",
+      "contactButtonText": "Stay up to date!",
+      "_template": "contactForm"
     }
   ]
 }

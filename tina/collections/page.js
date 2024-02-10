@@ -1,40 +1,62 @@
 /**
  * @type {import('tinacms').Collection}
  */
+import heroBanner from "./page_objects/hero_banner";
+import feature from "./page_objects/feature";
+import titledText from "./page_objects/titled_text";
+import secondaryNav from "./page_objects/secondary_nav";
+import actionCards from "./page_objects/action_cards";
+import testimonials from "./page_objects/testimonials";
+import contactForm from "./page_objects/contact_form";
+import leftImage from "./page_objects/left_image";
+import rightImage from "./page_objects/right_image";
+import adornment from "./page_objects/adornment";
+import timeline from "./page_objects/timeline";
+import stripeCards from "./page_objects/stripe_cards";
+
 export default {
   label: "Page Content",
   name: "page",
   path: "content/page",
   format: "json",
-  fields: [
-    {
-        name: "title",
-        label: "Title",
+    fields: [
+      {
         type: "string",
-        isTitle: true,
-        required: true
-    },
-    {
-      name: "rows",
-      label: "Content Rows",
-      type: "object",
-      list: true,
-      /* change fields to templates to allow choice of what kind of page object ... Might need to further categorize by organizing blocks WITHIN sections. */
-      fields: [
-          {
-              type: "rich-text",
-              label: "block",
-              name: "block"
-          }
-      ]
-    },
-  ],
-  ui: {
-    router: ({ document }) => {
-      if (document._sys.filename === "home") {
-        return `/`;
+        name: "pageTitle",
+        label: "Page Title",
+        isTitle:true,
+        required:true
+      },
+      {
+        type: "object",
+        name: "section",
+        label: "Page Section",
+        list: true,
+        templates: [
+          heroBanner,
+          feature,
+          titledText,
+          secondaryNav,
+          actionCards,
+          testimonials,
+          contactForm,
+          leftImage,
+          rightImage,
+//          adornment,
+          timeline,
+          stripeCards,
+        ]
       }
-      return undefined;
-    },
+
+//     ],
+// },
+],
+ui: {
+  router: ({ document }) => {
+    if (document._sys.filename === "home") {
+      return `/`;
+    }
+    return undefined;
   },
+}
 };

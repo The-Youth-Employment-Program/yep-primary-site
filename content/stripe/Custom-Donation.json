@@ -1,0 +1,6 @@
+{
+  "donationTitle": "Custom Donation",
+  "amount": "Choose another payment option.",
+  "stripeLink": "https://buy.stripe.com/test_7sI14tcUR36h7GobIO",
+  "_template": "donation"
+}

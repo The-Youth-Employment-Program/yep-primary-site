@@ -1,12 +1,14 @@
 {
   "branch": "Salmon",
+  "blurb": "With strong roots in the Salmon Challis National Forest, our strong partnerships with the Recreation Departments and Organizations keep our youth busy. Camping in the wilderness, clearing trail, and welding campsite facilities.\n",
   "contact": {
     "address": {
-      "street_address": "601 Lena Street",
+      "streetAddress": "601 Lena Street",
+      "secondaryAddress": "Suite A",
       "city": "Salmon",
       "state": "ID",
-      "zip_code": "83467"
+      "zipCode": "83467"
     },
-    "branch_phone": "(208) 756-8600"
+    "branchPhone": "(208) 756-8600"
   }
 }
