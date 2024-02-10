@@ -50,9 +50,9 @@ export function useToggle(initialValue = true) {
   return [value,toggle];
 }
 
-// This is an example of a page generated with Serverside Rendering.
-// This can be switched to a static page by using getStaticProps
-export const getServerSideProps = async ({ params }) => {
+// This is an example of a static page. 
+// This can be switched to a dynamic server side rendered page by using getServerSideProps
+export const getStaticPaths = async ({ params }) => {
   const { data, query, variables } = await client.queries.team({
     relativePath: `${params.slug}.json`,
   });
