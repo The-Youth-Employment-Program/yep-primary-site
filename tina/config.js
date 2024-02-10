@@ -6,7 +6,7 @@ import team from "./collections/team";
 import stripeContent from "./collections/stripe-content"
 
 export const config = defineConfig({
-  clientId: process.env.NEXT_PUBLIC_TINA_CLIENT_ID,
+  clientId: process.env.TINA_PUBLIC_CLIENT_ID,
   branch:
     process.env.NEXT_PUBLIC_TINA_BRANCH || // custom branch env override
     process.env.NEXT_PUBLIC_VERCEL_GIT_COMMIT_REF || // Vercel branch env
