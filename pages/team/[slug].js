@@ -50,9 +50,21 @@ export function useToggle(initialValue = true) {
   return [value,toggle];
 }
 
+export const getStaticPaths = async () => {
+  const { data } = await client.queries.teamConnection();
+  const paths = data.teamConnection.edges.map((x) => {
+    return { params: { slug: x.node._sys.filename } };
+  });
+
+  return {
+    paths,
+    fallback: "blocking",
+  };
+};
+
 // This is an example of a static page. 
 // This can be switched to a dynamic server side rendered page by using getServerSideProps
-export const getStaticPaths = async ({ params }) => {
+export const getStaticProps = async ({ params }) => {
   const { data, query, variables } = await client.queries.team({
     relativePath: `${params.slug}.json`,
   });
