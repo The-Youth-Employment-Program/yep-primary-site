@@ -35,7 +35,7 @@
           "actionText": "Need more information\n",
           "actionCall": {
             "label": "More",
-            "link": "/team/partners"
+            "link": "./team/partners"
           }
         },
         {
@@ -44,7 +44,7 @@
           "actionText": "United Way has been one of our most active supporters. Whether it be donating work shirts, notebooks, or even pens, we are grateful to have found a partner as supportive of community youth as we are!\n",
           "actionCall": {
             "label": "More",
-            "link": "/team/partners"
+            "link": "./team/partners"
           }
         },
         {
@@ -53,7 +53,7 @@
           "actionText": "Need more information\n",
           "actionCall": {
             "label": "More",
-            "link": "/team/partners"
+            "link": "./team/partners"
           }
         }
       ],

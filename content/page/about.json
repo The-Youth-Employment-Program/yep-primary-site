@@ -9,7 +9,7 @@
         {
           "altPage": {
             "label": "Partners",
-            "link": "/team/partners"
+            "link": "./team/partners"
           }
         },
         {
@@ -18,7 +18,7 @@
         {
           "altPage": {
             "label": "Our Team",
-            "link": "/team"
+            "link": "./team"
           }
         }
       ],
@@ -29,7 +29,7 @@
       "heroText": "The Youth Employment Program",
       "heroButton": {
         "label": "Get Involved",
-        "link": "/join"
+        "link": "./join"
       },
       "_template": "heroBanner"
     },
@@ -39,35 +39,35 @@
           "featureName": "Who We Are",
           "featureImage": "/uploads/PXL_20230801_212114218.jpg",
           "featureText": "The Youth Employment Program is a non-profit organization building our next generations into outstanding leaders who productively support our local communities.",
-          "featureLink": "/who-we-are",
+          "featureLink": "./who-we-are",
           "featureSubtext": "What is YEP"
         },
         {
           "featureName": "Mission",
           "featureImage": "/uploads/PXL_20230720_170352420.jpg",
           "featureText": "Check out our Mission and track our progress via our Annual Reports and Newsletters!",
-          "featureLink": "/mission",
+          "featureLink": "./mission",
           "featureSubtext": ""
         },
         {
           "featureName": "Our Team",
           "featureImage": "/uploads/PXL_20230718_163722766.jpg",
           "featureText": "YEP is overflowing with great personalities and talent actively engaged in supporting the leadership of tomorrow's communities. We shine by polishing our workforce and ourselves through fun and hard work in the outdoors.\nWe are compelled to forge lasting relationships and memories through work driven experiences and Technical Career Training[link?]",
-          "featureLink": "/team",
+          "featureLink": "./team",
           "featureSubtext": "YEP Leadership"
         },
         {
           "featureName": "Partners",
           "featureImage": "/uploads/PXL_20230720_172747770.jpg",
           "featureText": "The Youth Employment Program has built up meaningful relationships with a number of organizations we are happy to call our partners. These organizations share our mission or have dedicated themselves to aid us in our mission to develop outstanding leaders for our shared communities and ecosystems.",
-          "featureLink": "/team/partners",
+          "featureLink": "./team/partners",
           "featureSubtext": "YEP's Official Partners"
         },
         {
           "featureName": "A History of YEP",
           "featureImage": "/uploads/PXL_20230620_221956250.jpg",
           "featureText": "The Youth Employment Program has been bettering our communities since [year]. Check out our path to where we are today!",
-          "featureLink": "/history",
+          "featureLink": "./history",
           "featureSubtext": "Our History"
         }
       ],
@@ -81,7 +81,7 @@
           "actionText": "Work in the outdoors with industry professionals and gain practical experience in numerous fields!\n",
           "actionCall": {
             "label": "Join",
-            "link": "/work"
+            "link": "./work"
           }
         },
         {
@@ -90,7 +90,7 @@
           "actionText": "Support our local communities by donating your time or resources\n",
           "actionCall": {
             "label": "Give",
-            "link": "/support"
+            "link": "./support"
           }
         },
         {
@@ -99,7 +99,7 @@
           "actionText": "Join YEP in providing engaging and meaningful projects to help our youth and community\n",
           "actionCall": {
             "label": "Provide",
-            "link": "/join"
+            "link": "./join"
           }
         }
       ],

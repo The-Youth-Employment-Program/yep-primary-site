@@ -82,7 +82,7 @@
           "featureName": "Support Youth Directly",
           "featureImage": "/uploads/PXL_20230715_164543516.jpg",
           "featureText": "Looking to make a more direct impact on the local working youth? Consider making a sponsor donation. Funds allocated here go toward the items our hard working crews and individuals need on a daily basis!",
-          "featureLink": "/sponsor",
+          "featureLink": "./sponsor",
           "featureSubtext": "Same tax deductable donation, more specific use"
         }
       ],

@@ -19,7 +19,7 @@
           "actionText": "Join YEP in providing engaging and meaningful projects to help our youth and community\n",
           "actionCall": {
             "label": "Provide",
-            "link": "/join"
+            "link": "./join"
           }
         },
         {
@@ -28,7 +28,7 @@
           "actionText": "Work in the outdoors with industry professionals and gain practical experience in numerous fields!\n",
           "actionCall": {
             "label": "Join",
-            "link": "/work"
+            "link": "./work"
           }
         },
         {
@@ -37,7 +37,7 @@
           "actionText": "Support our local communities by donating your time or resources\n",
           "actionCall": {
             "label": "Give",
-            "link": "/support"
+            "link": "./support"
           }
         }
       ],
@@ -83,7 +83,7 @@
           "actionText": "\"I want YEP to work on my projects!\"\n",
           "actionCall": {
             "label": "Become a Partner",
-            "link": "/join"
+            "link": "./join"
           }
         },
         {
@@ -92,7 +92,7 @@
           "actionText": "\"I want to gain work experience in the Rocky Mountains\"\n",
           "actionCall": {
             "label": "Work with YEP",
-            "link": "/work"
+            "link": "./work"
           }
         },
         {
@@ -101,7 +101,7 @@
           "actionText": "\"I want to help our youth, and I have some free resources!\"\n",
           "actionCall": {
             "label": "Volunteer/Give",
-            "link": "/support"
+            "link": "./support"
           }
         }
       ],

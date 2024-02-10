@@ -42,28 +42,28 @@
           "featureName": "Make a Charitable Contribution",
           "featureImage": "/uploads/PXL_20230801_155612981.jpg",
           "featureText": "Looking to help make an impact on the local community? Consider making a general or project specific donation to YEP. Funds allocated here go toward the general operating costs YEP needs to sustain our work and partnerships. Your donation can also be allocated for use towards specific types or individual projects!",
-          "featureLink": "/donate",
+          "featureLink": "./donate",
           "featureSubtext": "Make a operational budget donation!"
         },
         {
           "featureName": "Support Youth Directly",
           "featureImage": "/uploads/PXL_20230715_164543516.jpg",
           "featureText": "Looking to make a more direct impact on the local working youth? Consider making a sponsor donation. Funds allocated here go toward the items our hard working crews and individuals need on a daily basis!",
-          "featureLink": "/sponsor",
+          "featureLink": "./sponsor",
           "featureSubtext": "Same tax deductable donation, more specific use"
         },
         {
           "featureName": "Consider Volunteering",
           "featureImage": "/uploads/PXL_20230803_172340970.jpg",
           "featureText": "Through volunteering at YEP, you can be apart of multiple projects, building professional relationships with the various agencies that we work with. \nThe best way to volunteer is to reach out to one of our enthusiastic staff members so we can pick out a project that fits what you're looking to help with!",
-          "featureLink": "/volunteer",
+          "featureLink": "./volunteer",
           "featureSubtext": "Have some spare time? "
         },
         {
           "featureName": "Apply to be a Partner",
           "featureImage": "/uploads/PXL_20230720_170352420.jpg",
           "featureText": "Partner with Youth Employment Program to get your projects done, help provide experience and work for local youth, and better our communities and ecosystems.",
-          "featureLink": "/join",
+          "featureLink": "./join",
           "featureSubtext": "Have extra work, help our youth grow!"
         }
       ],

@@ -18,7 +18,7 @@ export default {
                     "actionText": "Work in the outdoors with industry professionals and gain practical experience in numerous fields!\n",
                     "actionCall": {
                         "label": "Join",
-                        "link": "/work"
+                        "link": "./work"
                     }
                 }
             },

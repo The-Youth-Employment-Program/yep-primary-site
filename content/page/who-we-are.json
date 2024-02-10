@@ -9,7 +9,7 @@
         {
           "altPage": {
             "label": "Partners",
-            "link": "/partners"
+            "link": "./partners"
           }
         },
         {
@@ -18,7 +18,7 @@
         {
           "altPage": {
             "label": "Our Team",
-            "link": "/team"
+            "link": "./team"
           }
         }
       ],
@@ -36,7 +36,7 @@
           "featureName": "Our Team",
           "featureImage": "/uploads/PXL_20230718_163722766.jpg",
           "featureText": "YEP is overflowing with great personalities and talent actively engaged in supporting the leadership of tomorrow's communities. We shine by polishing our workforce and ourselves through fun and hard work in the outdoors. We are compelled to forge lasting relationships and memories through work driven experiences and Technical Career Training",
-          "featureLink": "/team",
+          "featureLink": "./team",
           "featureSubtext": "YEP Leadership"
         }
       ],

@@ -9,7 +9,7 @@
         {
           "altPage": {
             "label": "Partners",
-            "link": "/team/partners"
+            "link": "./team/partners"
           }
         },
         {
@@ -18,7 +18,7 @@
         {
           "altPage": {
             "label": "Our Team",
-            "link": "/team"
+            "link": "./team"
           }
         }
       ],

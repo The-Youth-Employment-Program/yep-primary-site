@@ -42,7 +42,7 @@
           "featureName": "Existing Partners",
           "featureImage": "/uploads/PXL_20230720_170352420.jpg",
           "featureText": "The Youth Employment Program has built up meaningful relationships with a number of organizations we are happy to call our partners. These organizations share our mission or have dedicated themselves to aid us in our mission to develop outstanding leaders for our shared communities and ecosystems.",
-          "featureLink": "/team/partners",
+          "featureLink": "./team/partners",
           "featureSubtext": "Individuals and Organizations"
         }
       ],
