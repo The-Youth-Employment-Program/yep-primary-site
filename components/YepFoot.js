@@ -18,9 +18,9 @@ export const YepFoot = () => {
       <div className="container px-6 mx-auto space-y-6 divide-y dark:divide-salmon-tan md:space-y-12 divide-opacity-50">
       <div className="grid grid-cols-12">
         <div className="pb-6 col-span-full md:pb-0 md:col-span-6">
-          <a rel="noopener noreferrer" href="/" className="flex justify-center space-x-3 md:justify-start">
+          <a rel="noopener noreferrer" href="./" className="flex justify-center space-x-3 md:justify-start">
             <div className="flex items-center justify-center w-20 h-20 rounded-full dark:bg-salmon-red">
-              <img src="/logo.svg" alt="Home" className="flex-shrink-0 w-20 h-20 cursor-pointer"/>
+              <img src="./logo.svg" alt="Home" className="flex-shrink-0 w-20 h-20 cursor-pointer"/>
             </div>
             <span className="self-center text-2xl font-bold">The Youth Employment Program</span>
           </a>
@@ -29,19 +29,19 @@ export const YepFoot = () => {
           <p className="pb-1 text-lg font-semibold">Take Action</p>
           <ul>
             <li>
-              <a rel="noopener noreferrer" href="/work" className="hover:text-salmon-green">Work</a>
+              <a rel="noopener noreferrer" href="./work" className="hover:text-salmon-green">Work</a>
             </li>
             <li>
-              <a rel="noopener noreferrer" href="/volunteer" className="hover:text-salmon-green">Volunteer</a>
+              <a rel="noopener noreferrer" href="./volunteer" className="hover:text-salmon-green">Volunteer</a>
             </li>
             <li>
-              <a rel="noopener noreferrer" href="/join" className="hover:text-salmon-green">Partner</a>
+              <a rel="noopener noreferrer" href="./join" className="hover:text-salmon-green">Partner</a>
             </li>
             <li>
-              <a rel="noopener noreferrer" href="/donate" className="hover:text-salmon-green">Donate</a>
+              <a rel="noopener noreferrer" href="./donate" className="hover:text-salmon-green">Donate</a>
             </li>
             <li>
-              <a rel="noopener noreferrer" href="/sponsor" className="hover:text-salmon-green">Sponsor</a>
+              <a rel="noopener noreferrer" href="./sponsor" className="hover:text-salmon-green">Sponsor</a>
             </li>
           </ul>
         </div>
@@ -49,16 +49,16 @@ export const YepFoot = () => {
           <p className="pb-1 text-lg font-semibold">Learn</p>
           <ul>
             <li>
-              <a rel="noopener noreferrer" href="/articles/newsletters" className="hover:text-salmon-green">Newsletter</a>
+              <a rel="noopener noreferrer" href="./articles/newsletters" className="hover:text-salmon-green">Newsletter</a>
             </li>
             <li>
-              <a rel="noopener noreferrer" href="/articles/posts" className="hover:text-salmon-green">Articles</a>
+              <a rel="noopener noreferrer" href="./articles/posts" className="hover:text-salmon-green">Articles</a>
             </li>
             <li>
-              <a rel="noopener noreferrer" href="/history" className="hover:text-salmon-green">History</a>
+              <a rel="noopener noreferrer" href="./history" className="hover:text-salmon-green">History</a>
             </li>
             <li>
-              <a rel="noopener noreferrer" href="/mission" className="hover:text-salmon-green">Mission</a>
+              <a rel="noopener noreferrer" href="./mission" className="hover:text-salmon-green">Mission</a>
             </li>
             <li>
               <a rel="noopener noreferrer" href="#" className="hover:text-salmon-green"></a>
