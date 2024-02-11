@@ -15,7 +15,7 @@ export const YepHead = () => {
     <div className="flex items-center justify-between px-4 py-3">
       <div className="">
         <Link href="./">
-          <img src="~/logo.svg" alt="Home" className="h-14 cursor-pointer"/>
+          <img src="./logo.svg" alt="Home" className="h-14 cursor-pointer"/>
         </Link>
       </div>
       <div className="flex items-center">
