@@ -46,7 +46,7 @@
           "stripeText": "Donate $25 to YEP.\n",
           "stripeCall": {
             "label": "Donate",
-            "link": "https://buy.stripe.com/test_14k3f57Dx6eogQ89AA"
+            "link": "https://buy.stripe.com/7sI4il5hC2ZSgwwbIL"
           }
         },
         {
@@ -54,7 +54,7 @@
           "stripeText": "Donate $50 to YEP.\n",
           "stripeCall": {
             "label": "Donate",
-            "link": "https://buy.stripe.com/test_3cs5ndf5Z5ak1Ve7st"
+            "link": "https://buy.stripe.com/00g5mp6lG8kc9449AE"
           }
         },
         {
@@ -62,7 +62,7 @@
           "stripeText": "Donate $100\n",
           "stripeCall": {
             "label": "Donate",
-            "link": "https://buy.stripe.com/test_00gdTJcXReKUeI06oq"
+            "link": "https://buy.stripe.com/6oEbKN8tOcAseoo6ot"
           }
         },
         {
@@ -70,7 +70,7 @@
           "stripeText": "Choose a custom amount to donate.\n",
           "stripeCall": {
             "label": "Donate",
-            "link": "https://buy.stripe.com/test_4gwcPF7Dx8mw57q3cf"
+            "link": "https://buy.stripe.com/14k5mpaBW8kc2FGeV0"
           }
         }
       ],
