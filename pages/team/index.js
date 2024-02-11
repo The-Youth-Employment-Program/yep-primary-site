@@ -28,7 +28,7 @@ export default function Team(props) {
                 </div>
             </div>
 
-            <div className="mb-4 tracking-wide text-xl font-semibold">YEP Staff:</div>
+            <div className=" ml-4 sm:ml-0 mb-4 tracking-wide text-xl font-semibold">YEP Staff:</div>
             <div className="grid justify-items-center grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 3xl:grid-cols-4 mb-4"> {/* xl:grid-flow-col / grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 */}
               {data.teamConnection.edges.map((part, i) =>{
                   switch (part?.node.__typename) {
@@ -39,14 +39,14 @@ export default function Team(props) {
               })}
             </div>
             <Link href="team/employees">
-              <a className="flex uppercase font-medium text-md text-salmon-red hover:text-salmon-tan mb-14">Full Staff
+              <a className="flex uppercase font-medium text-md text-salmon-red hover:text-salmon-tan ml-4 sm:ml-0 mb-14">Full Staff
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="ml-2 w-5 h-5">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
                 </svg>
               </a>
             </Link>
 
-            <div className="mb-4 tracking-wide text-xl font-semibold">YEP Board:</div>
+            <div className="mb-4 ml-4 sm:ml-0 tracking-wide text-xl font-semibold">YEP Board:</div>
             <div className="grid justify-items-center grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 3xl:grid-cols-4 mb-4"> {/* xl:grid-flow-col / grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 */}
               {data.teamConnection.edges.map((part, i) =>{
                   switch (part?.node.__typename) {
@@ -57,7 +57,7 @@ export default function Team(props) {
               })}
             </div>
             <Link href="team/board">
-              <a className="flex uppercase font-medium text-md text-salmon-red hover:text-salmon-tan mb-14">Full Board 
+              <a className="flex uppercase font-medium text-md text-salmon-red hover:text-salmon-tan ml-4 sm:ml-0 mb-14">Full Board 
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="ml-2 w-5 h-5">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
                 </svg>
