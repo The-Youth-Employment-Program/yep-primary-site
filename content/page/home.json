@@ -106,12 +106,6 @@
         }
       ],
       "_template": "actionCards"
-    },
-    {
-      "contactStatement": "Sign up for our newsletter and learn about YEP and our projects!",
-      "contactActionCall": "Stick with us!",
-      "contactButtonText": "Stay up to date!",
-      "_template": "contactForm"
     }
   ]
 }
