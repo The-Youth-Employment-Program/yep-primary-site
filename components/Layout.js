@@ -7,8 +7,8 @@ export const Layout = (props) => {
     <Head>
       <title>Youth Employment Program</title>
       <meta name="description" content="Non-Profit helping to build the next generation of community leaders" />
-      <link rel="icon" href="./favicon.ico" />
-      <link rel="stylesheet" href="./styles/global.css" />
+      <link rel="icon" href="/favicon.ico" />
+      <link rel="stylesheet" href="/styles/global.css" />
     </Head>
     <div className='min-h-screen bg-salmon-red'>
       <div className="bg-salmon-light-g2"> {/* bg-slate-100 */}

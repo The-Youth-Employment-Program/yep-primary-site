@@ -14,8 +14,8 @@ export const YepHead = () => {
   <header className=" bg-salmon-red sm:flex sm:justify-between sm:items-center"> {/* bg-salmon-tan */}
     <div className="flex items-center justify-between px-4 py-3">
       <div className="">
-        <Link href="./">
-          <img src="./logo.svg" alt="Home" className="h-14 cursor-pointer"/>
+        <Link href="/">
+          <img src="/logo.svg" alt="Home" className="h-14 cursor-pointer"/>
         </Link>
       </div>
       <div className="flex items-center">
@@ -33,16 +33,16 @@ export const YepHead = () => {
       </div>
     </div>
     <div className={`px-2 pt-0 pb-3 ${active} sm:flex sm:justify-around sm:items-center sm:pb-0 sm:pr-0`}>
-      <Link href="./about">
+      <Link href="/about">
         <a className="block px-2 py-1 text-salmon-tan rounded hover:bg-salmon-tan hover:text-salmon-red focus:bg-salmon-green focus:text-salmon-red font-medium tracking-wider sm:mt-0 sm:mr-2">About</a>
       </Link>
-      <Link href="./support">
+      <Link href="/support">
         <a className="mt-2 block px-2 py-1 text-salmon-tan rounded hover:bg-salmon-tan hover:text-salmon-red focus:bg-salmon-green focus:text-salmon-red font-medium tracking-wider sm:mt-0 sm:mr-2">Support</a>
       </Link>
-      <Link href="./articles">
+      <Link href="/articles">
         <a className="mt-2 block px-2 py-1 text-salmon-tan rounded hover:bg-salmon-tan hover:text-salmon-red focus:bg-salmon-green focus:text-salmon-red font-medium tracking-wider sm:mt-0 sm:mr-2">Articles</a>
       </Link>
-      <Link href="./contacts">
+      <Link href="/contacts">
         <a className="mt-2 block px-2 py-1 text-salmon-tan rounded hover:bg-salmon-tan hover:text-salmon-red focus:bg-salmon-green focus:text-salmon-red font-medium tracking-wider sm:mt-0 sm:mr-2">Contact</a>
       </Link>
       <div className="hidden sm:flex sm:items-center sm:pr-4">
