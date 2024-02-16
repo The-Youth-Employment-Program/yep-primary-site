@@ -22,7 +22,7 @@ export default function ArticleList(props) {
     <Layout>
       <YepHead />
       <main className='text-salmon-dark-g1 mt-6 mx-0 sm:mx-10 md:mx-16 lg:mx-24'>
-      <section className="mb-8">
+      {/* <section className="mb-8">
         <h1 className="text-2xl font-semibold tracking-wide">Youth Employment Program Newsletter and Articles</h1>
         
         <div class="my-6 flex flex-wrap h-full shadow-lg">
@@ -38,7 +38,7 @@ export default function ArticleList(props) {
             </div>
           </div>
           <div class="relative mb-6 mr-auto w-full shrink-0 grow-0 basis-auto py-2 px-3 md:mb-0 md:w-9/12 xl:w-7/12">
-            <h5 class="my-3 text-xl font-medium">Welcome to California</h5>
+            <h5 class="my-3 text-xl font-medium">Welcome to YEP</h5>
             <div
               class="mb-3 flex items-center justify-center text-sm font-medium text-danger dark:text-danger-500 md:justify-start">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
@@ -52,6 +52,7 @@ export default function ArticleList(props) {
               <small>Published <u>13.01.2022</u> by
                 <a href="#!">Anna Maria Doe</a></small>
             </p> */}
+            {/*
             <p class="mt-6 text-neutral-500 dark:text-neutral-300">
               Ut pretium ultricies dignissim. Sed sit amet mi eget urna placerat
               vulputate. Ut vulputate est non quam dignissim elementum. Donec a
@@ -71,7 +72,7 @@ export default function ArticleList(props) {
 
         </div>
         
-      </section>
+      </section> */}
 
       <div className="grid mx-2 sm:grid-cols-2 xl:grid-cols-4 sm:gap-4 md:gap-8 lg:gap-16">
         
@@ -116,7 +117,7 @@ export default function ArticleList(props) {
       </div>
       </main>
       <YepFoot />
-      <pre>{ JSON.stringify(articlesList, null, 2) }</pre>
+      {/* <pre>{ JSON.stringify(articlesList, null, 2) }</pre> */}
     </Layout>
   </>
   );

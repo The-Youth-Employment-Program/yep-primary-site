@@ -43,7 +43,7 @@ export default function Newsletters(props) {
       </div>
       </main>
       <YepFoot />
-      <pre>{ JSON.stringify(newsletterList, null, 2) }</pre>
+      {/* <pre>{ JSON.stringify(newsletterList, null, 2) }</pre> */}
     </Layout>
     )
 }
