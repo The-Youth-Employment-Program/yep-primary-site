@@ -55,7 +55,7 @@
       "pageLink": {
         "label": "Apply for Partnership",
         "link": "https://docs.google.com/document/d/1fyULlsz5FHWmR-rvDC4nwC5yuhdPEDa0kuy1Zs2PWac/edit",
-        "newTab": true
+        "newTab": false
       },
       "_template": "leftImage"
     }
