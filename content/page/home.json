@@ -75,7 +75,7 @@
         {
           "actionIcon": "/uploads/PXL_20230720_172747770.jpg",
           "cardTitle": "Become a Partner",
-          "actionText": "\"I want YEP to work on my projects!\"\n",
+          "actionText": "I want YEP to work on my projects!\n",
           "actionCall": {
             "label": "Become a Partner",
             "link": "./join"
