@@ -93,7 +93,7 @@
         {
           "actionIcon": "/uploads/PXL_20230715_164556834.jpg",
           "cardTitle": "Volunteer or Give",
-          "actionText": "\"I want to help our youth, and I have some free resources!\"\n",
+          "actionText": "I want to help our youth, and I have some free resources!\n",
           "actionCall": {
             "label": "Volunteer/Give",
             "link": "./support"
