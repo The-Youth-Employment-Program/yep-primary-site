@@ -1770,6 +1770,10 @@ video {
     margin-bottom: 2.5rem;
   }
 
+  .sm\:ml-0 {
+    margin-left: 0px;
+  }
+
   .sm\:ml-2 {
     margin-left: 0.5rem;
   }
