@@ -34,6 +34,17 @@
         "newTab": true
       },
       "_template": "rightImage"
+    },
+    {
+      "mainText": "Apply for a field position working with the BLM and their project specialists. Positions include recreation, range/botany, and mixed.",
+      "image": "",
+      "title": "BLM Internships",
+      "pageLink": {
+        "label": "Internship Application",
+        "link": "https://docs.google.com/forms/d/e/1FAIpQLScX3gdoz8lcEDCcIOtSmFShCJxU1Ns8aiRuV6Uh3DeQr22geA/viewform",
+        "newTab": true
+      },
+      "_template": "leftImage"
     }
   ]
 }
