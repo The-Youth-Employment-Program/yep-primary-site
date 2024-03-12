@@ -18,7 +18,9 @@
     {
       "heroImage": "/uploads/PXL_20230720_170352420.jpg",
       "heroButton": {
-        "label": "Get to Work"
+        "label": "Get to Work",
+        "link": "https://docs.google.com/forms/d/e/1FAIpQLScX3gdoz8lcEDCcIOtSmFShCJxU1Ns8aiRuV6Uh3DeQr22geA/viewform",
+        "newTab": true
       },
       "_template": "heroBanner"
     },
