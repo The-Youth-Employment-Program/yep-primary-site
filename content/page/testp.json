@@ -1,0 +1,15 @@
+{
+  "pageTitle": "testp",
+  "section": [
+    {
+      "heroImage": "/uploads/PXL_20230621_195831721.jpg",
+      "heroText": "test banner new page",
+      "heroButton": {
+        "label": "Click",
+        "link": "/about",
+        "newTab": true
+      },
+      "_template": "heroBanner"
+    }
+  ]
+}
