@@ -2,6 +2,7 @@
   "pageTitle": "Project Coordinator",
   "section": [
     {
+      "heroImage": "/uploads/PXL_20230621_170930297.jpg",
       "heroText": "We're Hiring a Project Coordinator!",
       "heroButton": {
         "label": "Apply Now!",
@@ -11,6 +12,7 @@
       "_template": "heroBanner"
     },
     {
+      "sectionText": "",
       "_template": "textBox"
     }
   ]
