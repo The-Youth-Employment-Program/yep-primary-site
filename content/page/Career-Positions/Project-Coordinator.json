@@ -1,0 +1,17 @@
+{
+  "pageTitle": "Project Coordinator",
+  "section": [
+    {
+      "heroText": "We're Hiring a Project Coordinator!",
+      "heroButton": {
+        "label": "Apply Now!",
+        "link": "https://docs.google.com/forms/d/1U4Ii2AzFAjuLva5PLdESL9jy4Y40E1Ry6Xy139cDtXc",
+        "newTab": true
+      },
+      "_template": "heroBanner"
+    },
+    {
+      "_template": "textBox"
+    }
+  ]
+}
