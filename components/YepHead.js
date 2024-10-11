@@ -11,6 +11,7 @@ export const YepHead = () => {
   const active = isOpen ? 'block' : 'hidden'
 
   return (
+<>
   <header className=" bg-salmon-red sm:flex sm:justify-between sm:items-center"> {/* bg-salmon-tan */}
     <div className="flex items-center justify-between px-4 py-3">
       <div className="">
@@ -55,6 +56,14 @@ export const YepHead = () => {
     </div>
     
   </header>
+
+{/*Temporary Hiring Banner*/}
+  <header class=" bg-salmon-green sm:justify-center sm:flex sm:center sm:items-center">
+    <div class="px-2 pt-0 pb-3 hidden sm:flex sm:justify-center sm:content-center sm:items-center sm:pb-0 sm:pr-0">
+      <a href="/Project-Coordinator" class="block px-2 py-1 text-salmon-red rounded font-medium tracking-wider sm:mt-0 sm:mr-0">We're Hiring!</a>
+    </div>
+  </header>
+</>
   )
 }
 
