@@ -2,6 +2,7 @@
  * @type {import('tinacms').Collection}
  */
 import heroBanner from "./page_objects/hero_banner";
+import notificationBanner from "./page_objects/notification_banner";
 import feature from "./page_objects/feature";
 import titledText from "./page_objects/titled_text";
 import secondaryNav from "./page_objects/secondary_nav";

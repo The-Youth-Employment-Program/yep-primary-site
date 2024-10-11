@@ -66,6 +66,9 @@ export default function Home(props) {
                 </>
               )
             }
+            //case "PageSectionNotificationBanner" : {
+            //  return <Feature key={i} {...part} />
+            //}
             case "PageSectionFeatures" : {
               return <Feature key={i} {...part} />
             }
