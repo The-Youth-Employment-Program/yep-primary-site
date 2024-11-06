@@ -1,4 +1,5 @@
-            case "PageSectionHeroBanner" : {
+switch (part?.__typename) {
+              case "PageSectionHeroBanner" : {
               return (<><HeroBanner key={i} {...part} /> 
                 <section className="p-6 bg-salmon-green text-gray-100 rounded-b-lg">
                   <div className="container p-4 mx-auto text-center">
@@ -22,3 +23,4 @@
                 </>
               )
             }
+          }
