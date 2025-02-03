@@ -115,7 +115,7 @@ export default function JobsList(props) {
       </div>
       </main>
       <YepFoot />
-       <pre>{ JSON.stringify(jobsList, null, 2) }</pre> 
+       {/*<pre>{ JSON.stringify(jobsList, null, 2) }</pre> */}
     </Layout>
   </>
   );
