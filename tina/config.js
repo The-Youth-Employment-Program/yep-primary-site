@@ -3,6 +3,7 @@ import page from "./collections/page";
 import article from "./collections/article";
 import contact from "./collections/contact";
 import team from "./collections/team";
+import jobs from "./collections/jobs";
 import stripeContent from "./collections/stripe-content";
 
 export const config = defineConfig({
@@ -28,7 +29,7 @@ export const config = defineConfig({
     outputFolder: "admin", // within the public folder
   },
   schema: {
-    collections: [page, article, contact, team, stripeContent],
+    collections: [page, article, contact, team, jobs, stripeContent],
   },
 });
 
