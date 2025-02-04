@@ -32,6 +32,13 @@ export default {
                 label: "Featured Image",
             },
             {
+                name:"brief",
+                label:"Brief Description",
+                type:"string",
+                description: "Short description that will show on the Jobs page",
+                required:true,
+            },
+            {
                 type: "rich-text",
                 label: "Job Description",
                 name: "body",
@@ -78,6 +85,13 @@ export default {
                 type: "image",
                 name: "image",
                 label: "Featured Image",
+            },
+            {
+                name:"brief",
+                label:"Brief Description",
+                type:"string",
+                description: "Short description that will show on the Jobs page",
+                required:true,
             },
             {
                 type: "rich-text",
