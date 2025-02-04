@@ -58,9 +58,9 @@ export const YepHead = () => {
   </header>
 
 {/*Temporary Hiring Banner*/}
-  <header class=" bg-salmon-green sm:justify-center sm:flex sm:center sm:items-center">
-    <div class="px-2 pt-0 pb-3 hidden sm:flex sm:justify-center sm:content-center sm:items-center sm:pb-0 sm:pr-0">
-      <a href="/jobs" class="block px-2 py-1 text-salmon-red rounded font-medium tracking-wider sm:mt-0 sm:mr-0">We're Hiring!</a>
+  <header className=" bg-salmon-green sm:justify-center sm:flex sm:center sm:items-center">
+    <div className="px-2 pt-0 pb-3 hidden sm:flex sm:justify-center sm:content-center sm:items-center sm:pb-0 sm:pr-0">
+      <a href="/jobs" className="block px-2 py-1 text-salmon-red rounded font-medium tracking-wider sm:mt-0 sm:mr-0">We're Hiring!</a>
     </div>
   </header>
 </>
